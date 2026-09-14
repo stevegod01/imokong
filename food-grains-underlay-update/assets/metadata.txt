@@ -1,0 +1,17 @@
+Asset: food-grains-sketch-v1.png
+Source: C:\Users\ejiog\Downloads\nuts.jpg
+Mode: built-in image_gen, style-transfer edit
+Calls: exactly one; no retries or variants
+Prompt: prompt.txt (exact text supplied)
+Native output: C:\Users\ejiog\.codex\generated_images\01a09b0f-7353-76e3-bfd6-56a786561d62\exec-c07bd162-fde0-474e-854c-292d2340ee6e.png
+Workspace copy: C:\Users\ejiog\OneDrive\Documents\imokong\food-grains-underlay-update\assets\food-grains-sketch-v1.png
+Dimensions: 1024 x 1536 pixels (portrait 2:3)
+Format: PNG, RGB, 24 bits per pixel
+Alpha: absent; all pixels opaque
+Checkerboard: YES, visible gray and white checkerboard is baked into the RGB pixels. It is not a transparency viewer effect.
+Background sample pixels (x,y): (350,100) RGB(254,254,254); (360,100) RGB(186,186,187); (350,110) RGB(184,185,184). Samples return A=255.
+Transparency acceptance: FAILED. The prompt explicitly requested genuine transparency or pure white fallback and prohibited checkerboards; the output does not satisfy this requirement.
+Visual inspection: Monochrome contour sketch retains source portrait arrangement, glass bowls, central/lower oats and diagonal spoon, flaxseed above, edge-cropped surrounding foods. Dense grain details and hatching appear in the chia/flaxseed bowls. Bowl/food interiors are mostly white-filled, rather than transparent open linework.
+Processing: Original generated output copied byte-for-byte; no image editing, background cleanup, recompression, alpha modification, resizing, or cropping performed.
+SHA256 (native and workspace copy verified equal): 2373EF1BA0BD00A95C38E1CF0CF1D44456BF15EE44050D505F4189D0D8A6FFDE
+Integration status: Owner informed of failed background requirement before integration. Asset should be reviewed with this limitation explicit.

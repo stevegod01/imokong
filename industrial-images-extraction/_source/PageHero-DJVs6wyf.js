@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-CUBmso4R.js";/* empty css                 */var t=e();function n({title:e}){return(0,t.jsx)(`section`,{className:`page-hero`,children:(0,t.jsx)(`h1`,{children:e})})}export{n as t};

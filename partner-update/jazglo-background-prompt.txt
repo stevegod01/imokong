@@ -1,0 +1,7 @@
+Use case: background-extraction
+Asset type: website partner logo PNG.
+Input image 1 is the EDIT TARGET: existing JazGlo logo with white background, original size 262 by 228 pixels.
+Primary request: Remove ONLY the white background to genuine alpha transparency. Also remove white negative space inside and between the logo shapes and text.
+Constraints: Preserve the exact original logo artwork: navy and cyan globe, airplane, boat and JG mark; preserve all contours, colours, relative positions, proportions, original framing and padding. Keep the exact original letterforms, arrangement, and spelling of "JazGlo" and "Enterprise Nigeria Ltd". Do not redraw, redesign, simplify, retype, upscale creatively, or invent any details. Retain original dimensions if possible.
+Background: actual transparent alpha, not a painted checkerboard. Clean antialiased edges with no white fringe or halo.
+Avoid: opaque background, checkerboard pixels, new text, changed typography, new shapes, shadows, any logo redesign.

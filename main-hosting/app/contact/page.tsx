@@ -1,0 +1,36 @@
+import {Suspense} from 'react';
+import QuoteForm from '@/components/quote-form';
+import QuoteFormFromQuery from '@/components/quote-form-from-query';
+
+export const metadata = {title: 'Start an enquiry'};
+
+export default function Contact() {
+  return (
+    <main id="main" className="wrap inner-page">
+      <p className="eyebrow">LET’S START A CONVERSATION</p>
+      <h1>Tell us what<br/><em>you need.</em></h1>
+      <div className="contact-grid">
+        <aside>
+          <p className="intro">A product, a specification, a new opportunity. Our team is ready to discuss your next requirement.</p>
+          <div className="contact-block">
+            <h2>Speak to our team</h2>
+            <a href="mailto:contact@imokong.com">contact@imokong.com</a>
+            <a href="tel:+2347062935109">+234 706 293 5109</a>
+            <a href="tel:+2347018529708">+234 701 852 9708</a>
+          </div>
+          <div className="contact-block">
+            <h2>Lagos</h2>
+            <p>1, Kayode Oni Animashaun Street,<br/>Olive Park, Ajah, Lagos State.</p>
+          </div>
+          <div className="contact-block">
+            <h2>Abuja</h2>
+            <p>16, Philip T Aduda Street,<br/>Wuye, Abuja.</p>
+          </div>
+        </aside>
+        <Suspense fallback={<QuoteForm initialProduct="" initialVariant=""/>}>
+          <QuoteFormFromQuery/>
+        </Suspense>
+      </div>
+    </main>
+  );
+}

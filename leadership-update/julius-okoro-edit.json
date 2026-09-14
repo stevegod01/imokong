@@ -1,0 +1,9 @@
+{
+  "personId": "julius-okoro",
+  "mode": "built-in image_gen edit",
+  "originalPath": "C:/Users/ejiog/OneDrive/Documents/imokong/leadership-update/originals/julius-okoro.webp",
+  "generatedSourcePath": "C:/Users/ejiog/.codex/generated_images/01a09ff5-272f-7712-a7b1-3018aedaaf6e/exec-d3acd4b9-3a53-4183-942a-79b8f262ce9d.png",
+  "outputPath": "C:/Users/ejiog/OneDrive/Documents/imokong/vercel-preview/public/images/leadership/julius-okoro.png",
+  "prompt": "Use case: identity-preserve. Asset type: IMOKO leadership website portrait. Input image: the referenced photograph is the edit target. Replace only the saturated orange background with a flat, solid warm neutral background, hex #f1f0e9. Preserve the exact identity, facial features, age, hair, skin tone, clothing, expression, lighting on the person, and pose. No retouching, restyling, beautification, added text, props, or logos. Aim for a clean consistent 4:5 portrait canvas with the existing person centered, head comfortably below the top and torso extending flush to the lower edge. Do not invent limbs. Keep original subject pixels and all existing subject details as faithfully as possible; change only the background and framing needed for the 4:5 canvas.",
+  "visualReview": "Compared generated output against the original. Identity, expression, hair, clothing and pose are visually consistent; no added limbs, props, logos or text. Saturated orange background replaced with warm neutral. Subject details are regenerated and are not a pixel-identical cutout."
+}

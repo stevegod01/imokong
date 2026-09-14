@@ -1,0 +1,57 @@
+{
+  "path": "C:\\Users\\ejiog\\OneDrive\\Documents\\imokong\\refinery-underlay-update\\refinery-sketch-clean.png",
+  "width": 1536,
+  "height": 1024,
+  "pixelFormat": "Format24bppRgb",
+  "backgroundSamples": [
+    {
+      "x": 40,
+      "y": 40,
+      "r": 254,
+      "g": 254,
+      "b": 254,
+      "a": 255
+    },
+    {
+      "x": 400,
+      "y": 40,
+      "r": 254,
+      "g": 254,
+      "b": 254,
+      "a": 255
+    },
+    {
+      "x": 800,
+      "y": 40,
+      "r": 254,
+      "g": 254,
+      "b": 254,
+      "a": 255
+    },
+    {
+      "x": 400,
+      "y": 200,
+      "r": 254,
+      "g": 254,
+      "b": 254,
+      "a": 255
+    },
+    {
+      "x": 800,
+      "y": 200,
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    {
+      "x": 1400,
+      "y": 200,
+      "r": 254,
+      "g": 254,
+      "b": 254,
+      "a": 255
+    }
+  ],
+  "visualAssessment": "Checkerboard removed; clean visually white background with no visible clouds or gray squares. Tall right chimney, diagonal left framework, central towers and pipes retained. Ready for CSS multiply blending and low opacity."
+}

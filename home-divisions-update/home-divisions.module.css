@@ -1,0 +1,87 @@
+.section {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px 24px;
+  padding-block: 28px 32px;
+  border-top: 1px solid var(--border);
+}
+
+.division {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  gap: 14px;
+  min-width: 0;
+  padding: 20px;
+  border-top: 2px solid var(--primary);
+}
+
+@supports (grid-template-rows: subgrid) {
+  .division {
+    grid-row: span 4;
+    grid-template-rows: subgrid;
+  }
+}
+
+.support { background: #f1f0ea; }
+
+.heading {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.heading svg { flex-shrink: 0; color: var(--primary); margin-top: 1px; }
+.heading h2 { font-size: 1.375rem; font-weight: 500; line-height: 1.22; letter-spacing: -.6px; }
+.description { font-size: 1rem; line-height: 1.5; color: #62665f; }
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-content: start;
+  gap: 2px 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: .875rem;
+  line-height: 1.4;
+}
+
+.items li { min-width: 0; }
+.items a { display: flex; align-items: center; min-height: 34px; padding-block: 5px; text-decoration: underline; text-decoration-color: #c8cbc4; text-underline-offset: 4px; transition: color .18s, text-decoration-color .18s; }
+.items a:hover { color: var(--primary); text-decoration-color: var(--primary); }
+.sectors li { display: flex; align-items: center; min-height: 34px; padding-block: 5px; color: #555a52; }
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 44px;
+  padding-top: 12px;
+  border-top: 1px solid #d6d8d0;
+  font-size: .875rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--primary);
+}
+
+.cta svg { flex-shrink: 0; transition: transform .18s; }
+.cta:hover svg { transform: translateX(4px); }
+.cta:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+@media (max-width: 1100px) {
+  .section { column-gap: 16px; }
+  .division { padding: 18px 14px; }
+  .heading { gap: 10px; }
+}
+
+@media (max-width: 860px) {
+  .section { grid-template-columns: minmax(0, 1fr); padding-block: 22px 26px; gap: 20px; }
+  .division { grid-row: auto; grid-template-rows: auto; gap: 10px; padding: 18px 16px; }
+  .heading h2 { font-size: 1.5rem; }
+  .cta { margin-top: 4px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .items a, .cta svg { transition: none; }
+}

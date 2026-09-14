@@ -1,0 +1,9 @@
+Use case: style-transfer
+Asset type: landscape sketch image for a translucent homepage banner underlay.
+Input image: Image 1 is the edit target, the supplied photo of paint-solvent drums in a warehouse.
+Primary request: Transform this photo into an elegant, light monochrome graphite and architectural line drawing. Preserve the same drum arrangement, relative proportions, prominent large foreground drum, rows receding to both sides, wooden pallets, warehouse context, and camera perspective.
+Style/medium: fine graphite-gray contour lines, restrained soft pencil strokes, minimal light crosshatching only where necessary to describe curvature and pallet depth. Keep drum bodies open and unfilled. Draw warehouse wall, rafters, windows, and shelving subtly in lighter linework so the drums remain the focus.
+Composition/framing: preserve the supplied wide landscape framing, approximately 16:9, without cropping out the pallets or extending the scene.
+Background/transparency: deliver a PNG with a genuinely transparent background and alpha channel. All open areas between lines, including drum faces, label panels, floor and warehouse background, should be transparent rather than white. No opaque canvas, no paper grain, no rendered checkerboard.
+Text: retain source drum label panel outlines. The existing words "PAINT MAKING SOLVENTS" may be lightly suggested as sketched lettering within their existing label panels; simplify tiny label text and avoid reproducing detailed specifications or hazard markings.
+Constraints: change only the rendering style, preserve the original scene composition and perspective. No colored fills, no solid black or gray drum fills, no photoreal textures, no heavy shadows, no new headlines, UI, brand marks, added objects, or watermark. This should be a clean, airy sketch suitable for use at low opacity beneath website content.

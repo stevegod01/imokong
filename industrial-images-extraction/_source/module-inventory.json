@@ -1,0 +1,252 @@
+[
+  {
+    "asset": "assets/Home-DVSplFx-.js",
+    "images": [
+      {
+        "path": "/refinery.jpg",
+        "context": ",ref:e=>{e&&(e.lazyPreloaderManaged=!0)}})))});zt.displayName=`SwiperSlide`;var $=n(),Bt=[`/refinery.jpg`,`/warehouse2.jpg`,`/shipment-manager-asking-warehouse-workers.jpg`];function Vt(){return(0,$.jsxs)(`section`,{className"
+      },
+      {
+        "path": "/warehouse2.jpg",
+        "context": "azyPreloaderManaged=!0)}})))});zt.displayName=`SwiperSlide`;var $=n(),Bt=[`/refinery.jpg`,`/warehouse2.jpg`,`/shipment-manager-asking-warehouse-workers.jpg`];function Vt(){return(0,$.jsxs)(`section`,{className:`hero-section`,ch"
+      },
+      {
+        "path": "/shipment-manager-asking-warehouse-workers.jpg",
+        "context": "d=!0)}})))});zt.displayName=`SwiperSlide`;var $=n(),Bt=[`/refinery.jpg`,`/warehouse2.jpg`,`/shipment-manager-asking-warehouse-workers.jpg`];function Vt(){return(0,$.jsxs)(`section`,{className:`hero-section`,children:[(0,$.jsx)(Rt,{className:`hero-section__sw"
+      },
+      {
+        "path": "/image 3.jpg",
+        "context": "ory--overlay`,children:[(0,$.jsx)(`div`,{className:`img-re`,children:(0,$.jsx)(`img`,{src:`/image 3.jpg`,alt:`IMOKO people collaborating in office`})}),(0,$.jsxs)(`div`,{className:`home-story__content`,children:[(0,$.jsxs)(`"
+      },
+      {
+        "path": "/truck with pellets.png",
+        "context": ":`home-story home-story__2`,children:[(0,$.jsxs)(`figure`,{children:[(0,$.jsx)(`img`,{src:`/truck with pellets.png`,alt:`IMOKO team discussing global supply chain operations`}),(0,$.jsx)(`figcaption`,{children:`Truck load of Soap noodl"
+      }
+    ],
+    "cssImages": []
+  },
+  {
+    "asset": "assets/Home-BarpK02R.css",
+    "images": [],
+    "cssImages": [
+      "/packing2.jpg"
+    ]
+  },
+  {
+    "asset": "assets/About-KjncLtKC.js",
+    "images": [
+      {
+        "path": "/about imoko.webp",
+        "context": "Name:`content-section split-visual about-page__who-we-are`,children:[(0,c.jsx)(`img`,{src:`/about imoko.webp`,alt:`IMOKO people collaborating in office`}),(0,c.jsxs)(`div`,{className:`about-page__content`,children:[(0,c.jsxs)(`di"
+      },
+      {
+        "path": "/cil_building.svg",
+        "context": "ssName:`about-page__subsection`,children:[(0,c.jsxs)(`h3`,{children:[(0,c.jsx)(`img`,{src:`/cil_building.svg`,alt:``}),` Mission`]}),(0,c.jsx)(`p`,{children:`To be Nigeria's most trusted supply chain partner, delivering premium r"
+      },
+      {
+        "path": "/cil_building.svg",
+        "context": "ssName:`about-page__subsection`,children:[(0,c.jsxs)(`h3`,{children:[(0,c.jsx)(`img`,{src:`/cil_building.svg`,alt:``}),`Vision`]}),(0,c.jsx)(`p`,{children:`To build a thriving African manufacturing ecosystem where quality is neve"
+      },
+      {
+        "path": "/Vector2.svg",
+        "context": "hildren:[(0,c.jsx)(`div`,{className:`about-page__stat-icon`,children:(0,c.jsx)(`img`,{src:`/Vector2.svg`,alt:``})}),(0,c.jsx)(`div`,{className:`about-page__stat-number`,children:`1+`}),(0,c.jsx)(`div`,{className:`about-page_"
+      },
+      {
+        "path": "/ph_truck-light.svg",
+        "context": "hildren:[(0,c.jsx)(`div`,{className:`about-page__stat-icon`,children:(0,c.jsx)(`img`,{src:`/ph_truck-light.svg`,alt:``})}),(0,c.jsx)(`div`,{className:`about-page__stat-number`,children:`30+`}),(0,c.jsx)(`div`,{className:`about-page"
+      },
+      {
+        "path": "/Vector-1.svg",
+        "context": "hildren:[(0,c.jsx)(`div`,{className:`about-page__stat-icon`,children:(0,c.jsx)(`img`,{src:`/Vector-1.svg`,alt:``})}),(0,c.jsx)(`div`,{className:`about-page__stat-number`,children:`20+`}),(0,c.jsx)(`div`,{className:`about-page"
+      },
+      {
+        "path": "/fluent_box-20-regular.svg",
+        "context": "hildren:[(0,c.jsx)(`div`,{className:`about-page__stat-icon`,children:(0,c.jsx)(`img`,{src:`/fluent_box-20-regular.svg`,alt:``})}),(0,c.jsx)(`div`,{className:`about-page__stat-number`,children:`30+`}),(0,c.jsx)(`div`,{className:`about-page"
+      },
+      {
+        "path": "/image 9.png",
+        "context": ",c.jsxs)(`article`,{className:`about-page__principle-card`,children:[(0,c.jsx)(`img`,{src:`/image 9.png`,alt:`Responsible sourcing icon`}),(0,c.jsx)(`h3`,{children:`RELIABILITY`}),(0,c.jsx)(`p`,{children:`In a market defined"
+      },
+      {
+        "path": "/image 10.png",
+        "context": ",c.jsxs)(`article`,{className:`about-page__principle-card`,children:[(0,c.jsx)(`img`,{src:`/image 10.png`,alt:`Efficient operations icon`}),(0,c.jsx)(`h3`,{children:`QUALITY WITHOUT COMPROMISE`}),(0,c.jsx)(`p`,{children:`We o"
+      },
+      {
+        "path": "/image 13.png",
+        "context": ",c.jsxs)(`article`,{className:`about-page__principle-card`,children:[(0,c.jsx)(`img`,{src:`/image 13.png`,alt:`Community impact icon`}),(0,c.jsx)(`h3`,{children:`TECHNICAL EXCELLENCE`}),(0,c.jsx)(`p`,{children:`IMOKO’s team o"
+      },
+      {
+        "path": "/image 22.png",
+        "context": "sx)(`div`,{className:`about-page__global-partnership-media`,children:(0,c.jsx)(`img`,{src:`/image 22.png`,alt:`Global partnership collaboration`})})]})]})}export{u as default};"
+      }
+    ],
+    "cssImages": []
+  },
+  {
+    "asset": "assets/PageHero-DJVs6wyf.js",
+    "images": [],
+    "cssImages": []
+  },
+  {
+    "asset": "assets/PageHero-DN8qHy5a.css",
+    "images": [],
+    "cssImages": []
+  },
+  {
+    "asset": "assets/About-DNG9Iv9F.css",
+    "images": [],
+    "cssImages": []
+  },
+  {
+    "asset": "assets/Products-yi_Vk2s-.js",
+    "images": [
+      {
+        "path": "/Rectangle-34624205@2x.png",
+        "context": ",{}),(0,o.jsxs)(`section`,{className:`home-story-products`,children:[(0,o.jsx)(`img`,{src:`/Rectangle-34624205@2x.png`,alt:`IMOKO people collaborating in office`}),(0,o.jsxs)(`div`,{className:`home-story-products__content`,children:[(0,o."
+      }
+    ],
+    "cssImages": []
+  },
+  {
+    "asset": "assets/Products-CZJiriYv.css",
+    "images": [],
+    "cssImages": []
+  },
+  {
+    "asset": "assets/RawMaterials-BJOEJQN0.js",
+    "images": [],
+    "cssImages": []
+  },
+  {
+    "asset": "assets/RawMaterials-Dzrtqu9u.css",
+    "images": [],
+    "cssImages": []
+  },
+  {
+    "asset": "assets/ProductDetail-D7-wCq63.js",
+    "images": [],
+    "cssImages": []
+  },
+  {
+    "asset": "assets/ProductDetail-9BYYoe8C.css",
+    "images": [],
+    "cssImages": []
+  },
+  {
+    "asset": "assets/Sustainability-Bf8fGecB.js",
+    "images": [],
+    "cssImages": []
+  },
+  {
+    "asset": "assets/Sustainability-FGSrFqJJ.css",
+    "images": [],
+    "cssImages": []
+  },
+  {
+    "asset": "assets/Partners-ge1XDpgf.js",
+    "images": [
+      {
+        "path": "/image 30.jpg",
+        "context": "s6wyf.js\";var a=e(t(),1),o=n(),s=[{id:`nimir`,label:`NIMIR`,activeLabel:`NIMIR`,mainImage:`/image 30.jpg`,railImages:[`/soap noodle.png`,`/almond.jpg`,`/nutee.jpg`,`/nuts.jpg`],description:`Founded 1964. Pakistan's most crede"
+      },
+      {
+        "path": "/soap noodle.png",
+        "context": "(),s=[{id:`nimir`,label:`NIMIR`,activeLabel:`NIMIR`,mainImage:`/image 30.jpg`,railImages:[`/soap noodle.png`,`/almond.jpg`,`/nutee.jpg`,`/nuts.jpg`],description:`Founded 1964. Pakistan's most credentialed chemical manufacturer. "
+      },
+      {
+        "path": "/almond.jpg",
+        "context": "abel:`NIMIR`,activeLabel:`NIMIR`,mainImage:`/image 30.jpg`,railImages:[`/soap noodle.png`,`/almond.jpg`,`/nutee.jpg`,`/nuts.jpg`],description:`Founded 1964. Pakistan's most credentialed chemical manufacturer. NIMIR supplies"
+      },
+      {
+        "path": "/nutee.jpg",
+        "context": "ctiveLabel:`NIMIR`,mainImage:`/image 30.jpg`,railImages:[`/soap noodle.png`,`/almond.jpg`,`/nutee.jpg`,`/nuts.jpg`],description:`Founded 1964. Pakistan's most credentialed chemical manufacturer. NIMIR supplies IMOKO with a"
+      },
+      {
+        "path": "/nuts.jpg",
+        "context": "IMIR`,mainImage:`/image 30.jpg`,railImages:[`/soap noodle.png`,`/almond.jpg`,`/nutee.jpg`,`/nuts.jpg`],description:`Founded 1964. Pakistan's most credentialed chemical manufacturer. NIMIR supplies IMOKO with a complete po"
+      },
+      {
+        "path": "/image 31.jpg",
+        "context": " full Technical Data Sheets.`},{id:`nicnax`,label:`Nicnax`,activeLabel:`Nicnax`,mainImage:`/image 31.jpg`,railImages:[`/image 9.png`,`/image 13.png`,`/image 14.png`,`/image 15.png`],description:`Nicnax is Nigeria's first indi"
+      },
+      {
+        "path": "/image 9.png",
+        "context": "`},{id:`nicnax`,label:`Nicnax`,activeLabel:`Nicnax`,mainImage:`/image 31.jpg`,railImages:[`/image 9.png`,`/image 13.png`,`/image 14.png`,`/image 15.png`],description:`Nicnax is Nigeria's first indigenous NAFDAC-approved gran"
+      },
+      {
+        "path": "/image 13.png",
+        "context": ",label:`Nicnax`,activeLabel:`Nicnax`,mainImage:`/image 31.jpg`,railImages:[`/image 9.png`,`/image 13.png`,`/image 14.png`,`/image 15.png`],description:`Nicnax is Nigeria's first indigenous NAFDAC-approved granola manufacturer"
+      },
+      {
+        "path": "/image 14.png",
+        "context": "activeLabel:`Nicnax`,mainImage:`/image 31.jpg`,railImages:[`/image 9.png`,`/image 13.png`,`/image 14.png`,`/image 15.png`],description:`Nicnax is Nigeria's first indigenous NAFDAC-approved granola manufacturer. They produce t"
+      },
+      {
+        "path": "/image 15.png",
+        "context": "nax`,mainImage:`/image 31.jpg`,railImages:[`/image 9.png`,`/image 13.png`,`/image 14.png`,`/image 15.png`],description:`Nicnax is Nigeria's first indigenous NAFDAC-approved granola manufacturer. They produce their peanut butt"
+      },
+      {
+        "path": "/DHL-express-logo.png",
+        "context": "stribution network.`},{id:`bokku`,label:`DHL Express`,activeLabel:`DHL Express`,mainImage:`/DHL-express-logo.png`,railImages:[`/image 16.png`,`/image 22.png`,`/Frame-1618873018@3x.png`,`/Frame-1618873019@3x.png`],description:`DHL Exp"
+      },
+      {
+        "path": "/image 16.png",
+        "context": "bel:`DHL Express`,activeLabel:`DHL Express`,mainImage:`/DHL-express-logo.png`,railImages:[`/image 16.png`,`/image 22.png`,`/Frame-1618873018@3x.png`,`/Frame-1618873019@3x.png`],description:`DHL Express is the world's leading "
+      },
+      {
+        "path": "/image 22.png",
+        "context": "`,activeLabel:`DHL Express`,mainImage:`/DHL-express-logo.png`,railImages:[`/image 16.png`,`/image 22.png`,`/Frame-1618873018@3x.png`,`/Frame-1618873019@3x.png`],description:`DHL Express is the world's leading logistics compan"
+      },
+      {
+        "path": "/Frame-1618873018@3x.png",
+        "context": "HL Express`,mainImage:`/DHL-express-logo.png`,railImages:[`/image 16.png`,`/image 22.png`,`/Frame-1618873018@3x.png`,`/Frame-1618873019@3x.png`],description:`DHL Express is the world's leading logistics company, specializing in internat"
+      },
+      {
+        "path": "/Frame-1618873019@3x.png",
+        "context": "-express-logo.png`,railImages:[`/image 16.png`,`/image 22.png`,`/Frame-1618873018@3x.png`,`/Frame-1618873019@3x.png`],description:`DHL Express is the world's leading logistics company, specializing in international shipping, courier ser"
+      },
+      {
+        "path": "/warehouse.jpg",
+        "context": "reliability, and efficiency.`},{id:`jazglo`,label:`JazGlo`,activeLabel:`JazGlo`,mainImage:`/warehouse.jpg`,railImages:[`/image 13.png`,`/image 14.png`,`/image 16.png`,`/image 22.png`],description:`JazGlo contributes market acc"
+      },
+      {
+        "path": "/image 13.png",
+        "context": "},{id:`jazglo`,label:`JazGlo`,activeLabel:`JazGlo`,mainImage:`/warehouse.jpg`,railImages:[`/image 13.png`,`/image 14.png`,`/image 16.png`,`/image 22.png`],description:`JazGlo contributes market access and branded distribution"
+      },
+      {
+        "path": "/image 14.png",
+        "context": "abel:`JazGlo`,activeLabel:`JazGlo`,mainImage:`/warehouse.jpg`,railImages:[`/image 13.png`,`/image 14.png`,`/image 16.png`,`/image 22.png`],description:`JazGlo contributes market access and branded distribution strength, helpi"
+      },
+      {
+        "path": "/image 16.png",
+        "context": "tiveLabel:`JazGlo`,mainImage:`/warehouse.jpg`,railImages:[`/image 13.png`,`/image 14.png`,`/image 16.png`,`/image 22.png`],description:`JazGlo contributes market access and branded distribution strength, helping us maintain q"
+      },
+      {
+        "path": "/image 22.png",
+        "context": "o`,mainImage:`/warehouse.jpg`,railImages:[`/image 13.png`,`/image 14.png`,`/image 16.png`,`/image 22.png`],description:`JazGlo contributes market access and branded distribution strength, helping us maintain quality while rea"
+      },
+      {
+        "path": "/icon-park-outline_good-two.svg",
+        "context": "elping us maintain quality while reaching customers across multiple channels.`}],c=[{Icon:`/icon-park-outline_good-two.svg`,title:`Verified Quality`,description:`Every partner meets documented quality standards independently verified, not self"
+      },
+      {
+        "path": "/mdi_approve.svg",
+        "context": "tly verified, not self-declared.`,accentClass:`partners-page__standard-icon--cyan`},{Icon:`/mdi_approve.svg`,title:`Proven Track Record`,description:`Each partner has an established, credentialed history with major commercial cl"
+      },
+      {
+        "path": "/octicon_goal-24.svg",
+        "context": "al clients or regulatory bodies.`,accentClass:`partners-page__standard-icon--gold`},{Icon:`/octicon_goal-24.svg`,title:`Shared Values`,description:`Quality, transparency, and a commitment to Nigerian consumers and industry non-negot"
+      },
+      {
+        "path": "/fluent_arrow-growth-20-regular.svg",
+        "context": "s and industry non-negotiable.`,accentClass:`partners-page__standard-icon--violet`},{Icon:`/fluent_arrow-growth-20-regular.svg`,title:`Mutual Growth`,description:`Every IMOKO partnership is designed to create value for both parties and for the Nig"
+      }
+    ],
+    "cssImages": []
+  },
+  {
+    "asset": "assets/Partners-DxlpLIlx.css",
+    "images": [],
+    "cssImages": []
+  }
+]

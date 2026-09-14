@@ -1,0 +1,20 @@
+Asset: paint-solvent-sketch-v1.png
+Created with: built-in image_gen tool, exactly one edit call; no variants or retries.
+Edit target preserved unchanged: C:\Users\ejiog\OneDrive\Documents\imokong\industrial-images-extraction\IMOKO-industrial-images\chemical-products\paint-solvent-drums.jpg
+Native output: C:\Users\ejiog\.codex\generated_images\01a09ac5-5f19-7490-86e2-2b92906b2738\exec-a92deb96-61a6-4508-adfb-117208271736.png
+Saved copy: C:\Users\ejiog\OneDrive\Documents\imokong\paint-solvent-underlay-update\assets\paint-solvent-sketch-v1.png
+Exact prompt: paint-solvent-sketch-v1.prompt.txt
+Dimensions: 1698 x 926 pixels
+Aspect ratio: approximately 1.834 (wide landscape, same approximate ratio as source)
+Mode: RGB; System.Drawing PixelFormat Format24bppRgb
+Alpha: absent. Opaque image; sampled alpha values returned by decoder are 255.
+SHA256: 662F7D207A448E90614C1C2AB90E148AA33BAF1596BE27504C1109199F0D21FA
+
+Visual inspection: native saved output was inspected with view_image. It preserves the principal warehouse, drums, label panels, pallets, and camera perspective as monochrome pencil/architectural linework. Main label lettering PAINT MAKING SOLVENTS remains visible. No newly added headline or website UI.
+Transparency limitation: despite the prompt explicitly requesting a true transparent background and no rendered checkerboard, the output contains a baked-in gray checkerboard across the scene. It is not a transparent PNG and is not a plain white-background image. The image has been preserved unchanged; no pixel editing, background removal, filtering, or re-encoding was performed.
+
+Read-only tonal sampling (gray = rounded average of R/G/B, 0 black, 255 white):
+Top-left pixel RGB: 226, 228, 227.
+Pixel (850, 460) RGB: 233, 233, 232.
+An open foreground drum region x=680..779, y=675..724 showed frequent gray values 183..188 and 224..229, corresponding to the two checkerboard tones. Most frequent values: 225 (207 pixels), 227 (190), 187 (171), 226 (171), 186 (168), 228 (162), 184 (154), 224 (153), 185 (151), 229 (146), 188 (137), 183 (129).
+Whole-image samples at every second pixel: 1st percentile gray 59; 5th 93; 10th 124; 25th 175; median 193; 75th 221; 90th 229; 99th 240. Dark contour/text tones occupy the lower range. This can inform CSS presentation experiments, but native alpha is still absent.

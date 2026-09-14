@@ -1,0 +1,10 @@
+Mode: built-in image_gen (one corrective edit call)
+Edit target: C:\Users\ejiog\OneDrive\Documents\imokong\refinery-underlay-update\refinery-sketch-generated.png
+
+Use case: precise-object-edit
+Input image: Image 1 is the edit target, the refinery architectural line sketch.
+Primary request: preserve the existing refinery line drawing, its proportions, and its exact landscape composition while replacing the entire existing checkerboard pattern, cloudy marks, and paper-like texture with a perfectly clean, uniform, solid pure-white (#FFFFFF) background. All negative spaces must be clean white, including the sky, foreground gaps, and spaces between the steelwork and piping.
+Preserve: the very tall chimney at the right, the diagonal steel framework at the left, the central pipes, distillation towers, platforms, industrial outlines, hand-drawn character, perspective, and sparse structural hatching.
+Style: crisp black/slate-gray architectural pencil-and-ink line sketch on perfectly clean pure white.
+Constraints: change only the background contamination and unwanted texture, keeping the recognizable industrial drawing. Remove all gray squares and residual background pattern. No texture or gradients anywhere. No clouds, gray sky washes, colored areas, text, labels, borders, or watermarks.
+Output: one clean landscape PNG, same 3:2 framing.

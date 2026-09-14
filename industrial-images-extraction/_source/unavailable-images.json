@@ -1,0 +1,32 @@
+[
+  {
+    "src": "/warehouse.jpg",
+    "label": "Warehouse on the partners page",
+    "sourceUrl": "https://imokong.com/warehouse.jpg",
+    "error": "Unexpected type text/html"
+  },
+  {
+    "src": "/paint making solvent.jpg",
+    "label": "Paint solvents product hero",
+    "sourceUrl": "https://imokong.com/paint%20making%20solvent.jpg",
+    "error": "Unexpected type text/html"
+  },
+  {
+    "src": "/image 14.png",
+    "label": "Partner gallery image",
+    "sourceUrl": "https://imokong.com/image%2014.png",
+    "error": "Unexpected type text/html"
+  },
+  {
+    "src": "/image 15.png",
+    "label": "Partner gallery image",
+    "sourceUrl": "https://imokong.com/image%2015.png",
+    "error": "Unexpected type text/html"
+  },
+  {
+    "src": "/image 16.png",
+    "label": "Partner gallery image",
+    "sourceUrl": "https://imokong.com/image%2016.png",
+    "error": "Unexpected type text/html"
+  }
+]

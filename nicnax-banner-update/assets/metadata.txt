@@ -1,0 +1,18 @@
+Asset: nicnax-products-cutout-v1.png
+Saved path: C:\Users\ejiog\OneDrive\Documents\imokong\nicnax-banner-update\assets\nicnax-products-cutout-v1.png
+Source edit target: C:\Users\ejiog\Downloads\almond granola.jpg
+Source dimensions: 1180 x 626 pixels
+Method: built-in image_gen__imagegen, background-extraction edit
+Generation calls: exactly 1; no variants, retries, or raster postprocessing
+Prompt: exact tool prompt saved in adjacent prompt.txt
+Native output: C:\Users\ejiog\.codex\generated_images\01a09b62-3c90-7450-9ebf-1c2efdaf9758\exec-413bdad5-cf90-491a-9896-6d3689deec60.png
+Copy status: copied unchanged, native original retained
+Native and saved SHA256: 1C8C263A5D9D2D69C4166EE0354A56FE25587FBEBEACEFEE7AC4C5EDB72F874C
+Output dimensions: 1721 x 914 pixels
+PNG color type: 2 (RGB, no alpha channel)
+PNG bit depth: 8
+System.Drawing pixel format: Format24bppRgb
+Transparency result: FAILED. Gray checkerboard is baked into RGB pixels; this is not a transparent cutout.
+Evidence: pixel (0,0) RGB=(192,193,192), (12,0) RGB=(132,131,130), (24,0) RGB=(197,196,196), (36,0) RGB=(138,138,139); all report A=255, consistent with RGB-only PNG.
+Visual QA: five main product objects and nuts retained with broadly similar arrangement, and bottom standalone promotional lettering removed. Model redrew product details and small label text and expanded/reconstructed cropped product edges; exact photographic fidelity and original crop are not preserved.
+Use limitation: cannot be overlaid as a transparent PNG. Use a native SVG clipping mask if suitable; no further raster editing or generation was performed.

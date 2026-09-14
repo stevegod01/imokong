@@ -1,0 +1,22 @@
+import Link from 'next/link';
+import {notFound} from 'next/navigation';
+import {ArrowUpRight,ArrowLeft,Check,Download} from 'lucide-react';
+import {products,divisionName} from '@/lib/products';
+import {soapBrochure} from '@/lib/brochure';
+import ProductVariants from '@/components/product-variants';
+import GranolaDetail from '@/components/granola-detail';
+import SoapBagGallery from '@/components/soap-bag-gallery';
+import {Table,TableBody,TableCell,TableRow} from '@/components/ui/table';
+
+export const dynamicParams = false;
+export function generateStaticParams() {
+  return products.map(({slug}) => ({slug}));
+}
+
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const p=products.find(p=>p.slug===slug);return {title:p?.name||'Product not found',description:p?.summary}}
+export default async function ProductPage({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const p=products.find(p=>p.slug===slug);if(!p)notFound();if(p.slug==='granola')return <GranolaDetail/>;return <main id="main" className="wrap inner-page"><Link className="breadcrumb" href={`/products?division=${p.division}`}><ArrowLeft size={16}/> {divisionName(p.division)}</Link>
+<section className="product-detail">{p.slug==='soap-noodles'?<SoapBagGallery/>:<div className="detail-image"><img src={`/images/${p.image}`} alt={p.name}/><span>{divisionName(p.division)}</span></div>}<div className="detail-copy"><p className="eyebrow">{p.division==='food'?'EVERYDAY PRODUCTS. THOUGHTFULLY SOURCED.':'THE BUILDING BLOCKS OF YOUR BUSINESS.'}</p><h1>{p.name}</h1><p className="intro">{p.summary}</p><Link href={`/contact?product=${encodeURIComponent(p.name)}`} className="button">Request a quote <ArrowUpRight size={18}/></Link><p className="small-note">Our team can help with specifications, quantities and availability.</p>{p.brochure&&<a className="text-link brochure-link" href={soapBrochure.href} download>Download soap brochure <Download size={17}/><span>{soapBrochure.size}</span></a>}<div className="applications"><h2>Suited to your business</h2>{p.applications.map(a=><p key={a}><Check size={16}/>{a}</p>)}</div></div></section>
+<section className="specifications"><div><p className="eyebrow">KNOW YOUR PRODUCT</p><h2 className="display-heading">The details<br/>that matter.</h2><p>Have a specific requirement? Let’s discuss the right fit before you order.</p></div><Table><TableBody>{p.details.map(([label,value])=><TableRow key={label}><TableCell className="spec-label">{label}</TableCell><TableCell>{value}</TableCell></TableRow>)}</TableBody></Table></section>
+{p.variants.length>0&&<ProductVariants name={p.name} variants={p.variants} food={p.division==='food'} specifications={p.variantSpecifications}/>}
+{p.slug==='soap-noodles'&&<section className="soap-support"><div><p className="eyebrow">BEYOND THE RAW MATERIAL</p><h2 className="display-heading">Support for your<br/>next formulation.</h2></div><div><p>Discuss total fatty matter, moisture content, skin feel and fragrance requirements with our technical team. Our production partnership supports custom formulation and research collaboration.</p><p>We also provide laboratory-tested batch reports and can discuss supply volumes around your factory’s tonnage requirements.</p><Link className="text-link" href="/contact?product=Soap%20noodles&variant=Technical%20consultation%20or%20samples">Request a technical consultation or samples <ArrowUpRight size={18}/></Link></div></section>}
+<section className="catalogue-help"><h2>Let’s talk about your supply.</h2><p>Tell us the product, quantity and delivery location you have in mind.</p><Link className="text-link" href={`/contact?product=${encodeURIComponent(p.name)}`}>Start your enquiry <ArrowUpRight size={18}/></Link></section></main>}

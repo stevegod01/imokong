@@ -1,0 +1,9 @@
+Use case: style-transfer
+Asset type: subtle transparent illustration underlay for the IMOKO homepage banner.
+Input image: the supplied nuts.jpg is the edit target. Transform this exact photograph into a drawing.
+Primary request: faithfully redraw the complete arrangement of glass bowls of food as a monochrome fine graphite/ink contour sketch with sparse crosshatching and minimal fine texture.
+Composition/framing: preserve the source portrait composition at approximately 2:3 and the source geometry, perspective, bowl positions, sizes, overlaps, and edge cropping. Keep the oats bowl at center/lower center and its spoon pointing diagonally upward right, flaxseed bowl directly above, beans at upper left, lentils at top, rice at upper right, corn at middle right, chia at middle left, sunflower seeds at lower left, chickpeas along bottom, and the other cropped grain bowls at the image edges. Do not rearrange, add, or omit these elements.
+Style/medium: strong clean thin dark graphite/ink outlines, elegant hand-drawn contour detail, very sparse fine crosshatching. Draw food grains as open contours, with no solid food fills. Keep enough outline strength to remain legible when displayed at subtle opacity as a website underlay.
+Background: genuine transparent alpha background everywhere between and within the line drawing, with no paper, tabletop, shadow field, or background texture. If real alpha transparency is unavailable, use a perfectly pure white (#FFFFFF) background instead. NEVER draw a checkerboard or simulate transparency visually.
+Color palette: strictly monochrome dark graphite linework only; no color anywhere, including the spoon.
+Constraints: source-photo style transfer; retain exact arrangement and spoon geometry; preserve portrait composition; no captions, labels, text, logos, watermark, decorative elements, dense shading, solid food fills, paper texture, checkerboard graphic, or visible background pattern.

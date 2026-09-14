@@ -1,0 +1,12 @@
+Mode: built-in image_gen (single edit call; no variants or retries)
+Source: C:\Users\ejiog\OneDrive\Documents\imokong\industrial-images-extraction\IMOKO-industrial-images\industrial-photos\refinery.jpg
+
+Use case: style-transfer
+Asset type: transparent refinery architectural sketch for a full-width website banner underlay.
+Input images: Image 1 is the edit target, the supplied refinery and processing plant photograph.
+Primary request: transform this exact refinery photograph into a restrained architectural pencil-and-fine-ink line drawing on a genuinely transparent background. Preserve the refinery's recognizable structure and perspective: the very tall chimney on the right, the diagonal steel framework along the left, central pipework, platforms, and distillation towers.
+Style/medium: precise hand-drawn industrial architectural sketch; fine but clearly legible charcoal/slate-gray strokes, delicate structural detail, sparse cross-hatching only. Keep enough line contrast to remain recognizable when the website applies about 0.16 CSS opacity.
+Composition/framing: wide landscape, at least 3:2, retaining the original refinery silhouette and relative placements; broad airy transparent negative space in the sky area and between the industrial lines. Keep the foreground minimal, lightly suggest perspective ground lines, simplify the heavy foreground construction masses.
+Background/output: actual transparent PNG RGBA with alpha transparency, fully transparent sky and transparent negative spaces between strokes. No opaque background or opaque fills inside the structures; only the drawn strokes and sparse hatching should be visible. Do not simulate transparency.
+Constraints: preserve the tall right chimney and the source refinery identity. Remove all photographic colors, sky, clouds, illumination effects, heavy dark shadows, and solid foreground masses. This is a subtle decorative backdrop behind existing dark text, orange heading, and a foreground illustration on an almost-white website.
+Avoid: white rectangular background, paper texture, painted checkerboard, text, labels, borders, watermarks, dramatic shading, solid black silhouettes, extra objects.

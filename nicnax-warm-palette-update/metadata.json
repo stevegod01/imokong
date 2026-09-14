@@ -1,0 +1,46 @@
+{
+  "status": "Native built-in result saved unchanged; requires owner review before integration.",
+  "generated_with": "Built-in image_gen.imagegen",
+  "edit_call_count": 1,
+  "retries_or_variants": 0,
+  "source": "C:\\Users\\ejiog\\Downloads\\almond granola.jpg",
+  "native_generated_path": "C:\\Users\\ejiog\\.codex\\generated_images\\01a09f68-c6ce-7131-915c-aa752765ad14\\exec-c83d5ab3-40d8-4c7c-bc04-b47c72d5f023.png",
+  "saved_path": "C:\\Users\\ejiog\\OneDrive\\Documents\\imokong\\nicnax-warm-palette-update\\assets\\nicnax-warm-products-v1.png",
+  "exact_prompt_path": "C:\\Users\\ejiog\\OneDrive\\Documents\\imokong\\nicnax-warm-palette-update\\exactprompt.txt",
+  "source_dimensions": {
+    "width": 1180,
+    "height": 626
+  },
+  "output_dimensions": {
+    "width": 1721,
+    "height": 914
+  },
+  "output_pixel_format": "Format24bppRgb",
+  "alpha": {
+    "present": false,
+    "actual_background_transparency": false,
+    "sampled_alpha": 255
+  },
+  "background": {
+    "type": "baked gray checkerboard",
+    "pure_white_fallback": false,
+    "evidence": "Opaque RGB background pixels alternate between gray values, e.g. (0,0) RGB 193,194,193; (13,0) RGB 135,135,134; (0,13) RGB 131,131,129; (13,13) RGB 198,198,198.",
+    "requested_background_extraction_met": false
+  },
+  "palette": {
+    "outcome": "Large blue panels are burnt orange; yellow panels are orange; shipping case light cream/warm gray; jar label backgrounds charcoal and orange.",
+    "caveat": "Small nutrition badges retain green, red and blue. Major package panels are saturated orange rather than especially muted clay."
+  },
+  "fidelity": {
+    "composition": "Broad arrangement retained: two large bags at left, shipping case upper right and two jars lower right. Exact normalized silhouette alignment was not preserved.",
+    "framing": "Source bag tops were cropped through the top edge; result reconstructs their top edges near the top margin. Bags extend farther downward relative to canvas, and shipping-case lower edge and jar positions differ.",
+    "readable_primary_labels": "Nicnax-Granola, Almond Cranberry Granola, Fruity Delight Granola and nu+ee remain legible.",
+    "fine_print": "Fine print, food-window contents and product graphics have been regenerated; pixel-exact fidelity is not preserved.",
+    "detached_wordmark": "Removed.",
+    "ground_shadows": "Removed from backdrop; dimensional shading remains within objects.",
+    "natural_food_colors": "Natural granola, fruit, nut and peanut-butter colors retained visually.",
+    "existing_normalized_mask": "Do not assume existing original-photo silhouette mask fits; owner should assess alignment or make a new mask."
+  },
+  "sha256": "53F45DE7B92289C259E98B480F5FA3E6AFA362C8688AC702B4AA9029ADA33CD8",
+  "mutations": "Only copied native output; no resizing, alpha conversion, pixel editing, site edits or integration."
+}

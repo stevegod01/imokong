@@ -1,0 +1,19 @@
+# Banner object animation
+
+The three `public/images/banner-*-parts.png` assets were created with the built-in image generator. Exact generation prompts are in `banner-motion-prompts.json`.
+
+Each sheet is 1254 × 1254 pixels, containing four 627 × 627 cells in row-major order. The `artworkLayers` registry in `components/hero-banner.tsx` maps object names to their sheet and cell, so a banner can combine objects from different sheets. Each object has its own positioned element and motion element; CSS selects its cell using a 200% background size.
+
+The default “Who are we?” banner uses the user-supplied industrial chemical distribution introduction, expanded with production relationships and technical support information. It combines an industrial processing plant, truck, drum, glycerine vessel and soap-noodle tray in a distinct composition. All four banners display for 6 seconds. Its artwork files are preloaded. Its visible headline is the page H1.
+
+The plant is a standalone generated image at `public/images/banner-chemical-plant.png`, displayed at 100% background size rather than selecting a sprite cell. Its exact prompt is in `industrial-plant-prompt.json`. It replaces the shipping container only in the default banner; the reliable supply banner still uses its original container sprite.
+
+- Supply: warehouse, truck, shipping container, pallet.
+- Industrial: drum, glycerine vessel, soap-noodle tray, sacks.
+- Food: granola bowl, oats bowl, margarine tub, toast.
+
+Food has native alpha. The supply and industrial outputs contain a painted checkerboard, including after a background-extraction attempt. Their surrounding pixels are hidden using object-specific CSS clipping polygons. Those polygons match the exact source sheets and must be updated or removed when replacing an asset. The unmodified original single-scene illustrations remain available as `banner-supply.png`, `banner-industrial.png`, and `banner-food.png`.
+
+The warehouse stays stationary while the other objects animate independently. Automatic rotation continues when the pointer rests over a banner. Manual navigation, including clicking the selected dot, starts a fresh 6-second interval. Dragging pauses rotation temporarily; release or carousel reinitialization restarts the interval even when the slide stays the same. Keyboard focus pauses rotation only while focus remains within the carousel, and mouse-retained button focus does not stop it. Object motion continues during these temporary pauses. Explicit Pause stops object loops and rotation, with entrance transitions settled immediately; Play resumes both, including when activated from the keyboard. Reduced-motion preferences disable all motion, and hidden documents pause loops and rotation. Only the active slide receives animations.
+
+The four scenes share one stretched carousel height, sized to the visible viewport below the header (96px on desktop, 78px at widths up to 760px). Larger headings are constrained by both viewport width and height, with a smaller scale for the long company heading. Artwork can fill 98% of its column up to 550px, while reserving 144px for layout padding and navigation. Tighter spacing accommodates these larger elements within the existing banner height. Phones with more vertical room use artwork up to 192px; short phones retain their compact scale. Each description and its actions form a single left-aligned block, vertically centered beside the artwork; actions remain directly below the description with a fixed gap. On phones, that whole block precedes the artwork. Balanced headings and paragraph wrapping avoid awkward short final lines. The bottom layout padding reserves room for the shared navigation. Content can increase the common height on exceptionally small screens or with enlarged text, so descriptions and links remain readable instead of being clipped.

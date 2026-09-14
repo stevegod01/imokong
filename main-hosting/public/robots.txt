@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://imokong.com/sitemap.xml

@@ -1,0 +1,24 @@
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+
+# Preserve the hosting account's existing HTTPS redirect.
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Keep links from the previous website working.
+RewriteRule ^product-detail/raw/soap-making-noodles/?$ /products/soap-noodles/ [R=301,L]
+RewriteRule ^product-detail/raw/paint-making-solvents/?$ /products/solvents/ [R=301,L]
+RewriteRule ^product-detail/raw/glycerine/?$ /products/glycerine/ [R=301,L]
+RewriteRule ^product-detail/raw/stearic-acid/?$ /products/stearic-acid/ [R=301,L]
+RewriteRule ^product-detail/finished/oatmeals/?$ /products/oatmeal/ [R=301,L]
+RewriteRule ^product-detail/finished/margarine/?$ /products/margarine/ [R=301,L]
+RewriteRule ^products/raw-materials/?$ /products/?division=industrial [R=301,L]
+RewriteRule ^products/finished-products/?$ /products/?division=food [R=301,L]
+RewriteRule ^leadership/?$ /about/#leadership-heading [R=301,L,NE]
+RewriteRule ^(about|contact|partners|products)\.html$ /$1/ [R=301,L]
+
+# Retain published articles and other pages without a redesign counterpart.
+# The old index and its assets are preserved before installing this export.
+RewriteRule ^(news(?:/.*)?|sustainability|site-map)/?$ legacy-index.html [L]

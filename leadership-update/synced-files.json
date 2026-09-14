@@ -1,0 +1,98 @@
+[
+  {
+    "file": "app/layout.tsx",
+    "sha256": "2EC02E678245CE0F54EB9C1D218DDFAE68BFFCB0AFFC0CB14A6249F53306FE7A"
+  },
+  {
+    "file": "app/about/page.tsx",
+    "sha256": "E15866FD321F732C3C22BA91C294A73A0E40F8C676786B07B7BDE65042CD1F88"
+  },
+  {
+    "file": "app/about/about.module.css",
+    "sha256": "366501E40EBC6DA5E23086B6C9EDDA2FD1F0A28F357BB96967F51F0282F80379"
+  },
+  {
+    "file": "app/leadership/board-of-directors/page.tsx",
+    "sha256": "C50A77D9922AE2212DFC7B5915E7106D89722F68ACF88E5E7AC38010A779701E"
+  },
+  {
+    "file": "app/leadership/executive-management/page.tsx",
+    "sha256": "FEC6A12655AFAD1C74B7227AF58C1856440A3FBED5B74B95BC753C7033532676"
+  },
+  {
+    "file": "components/about-nav.tsx",
+    "sha256": "446BBA1201029B317B442000CF5F6EC0CD38A953C5D688B0E40F27B8A65878FE"
+  },
+  {
+    "file": "components/about-nav.module.css",
+    "sha256": "63C5AC08FDFA9DB5F823CDBFE29958F6CD42CD1B551910B99CA68B10F730A9F1"
+  },
+  {
+    "file": "components/about-menu.tsx",
+    "sha256": "F938BE6019CE5DB127B145EAA9B012C301C6B2206569BB2D22FA5136965643F7"
+  },
+  {
+    "file": "components/about-menu.module.css",
+    "sha256": "7A00C8788AD168744FD7B87E56462C62B0D144C77DC0359AA63EE36BDAF7B067"
+  },
+  {
+    "file": "components/mobile-menu.tsx",
+    "sha256": "81B12109B18397EAC7BD31B31F4D3AEE2457079951259E14F037FFCC598FCE22"
+  },
+  {
+    "file": "components/mobile-menu.module.css",
+    "sha256": "55618CA681D2ECE5D98CD3EB329C1A9F652BF09F80A4EFB4FF11F740A648A47E"
+  },
+  {
+    "file": "components/site-footer.tsx",
+    "sha256": "FA037337DF33760F8A131050F3228249FECBCEF930720B1406E90C6D7500C1FC"
+  },
+  {
+    "file": "components/leader-card.tsx",
+    "sha256": "9B163277FA1E714B8871FF0E6943AAD97063434282BA863951BE06F65A130375"
+  },
+  {
+    "file": "components/leadership-page.tsx",
+    "sha256": "1279C793D21338268AA0A6A711BE2B78D9597556CAE366BC955FA00BA9E241BE"
+  },
+  {
+    "file": "components/leadership.module.css",
+    "sha256": "85974FF498F4EE1A9C874DB625B2CBEF4C62C7AF69CEE30CC22C7C84DC41F5AE"
+  },
+  {
+    "file": "lib/leadership.ts",
+    "sha256": "4DCD5168675BD48438BC438DBC4273F6C5725B6004DC165748D36F6B20A0EDFD"
+  },
+  {
+    "file": "public/images/leadership/chimezie-anyakora.webp",
+    "sha256": "6FF0925C03ED02FD00E255048735FC3849B52D7C0A52E6A1E6A6CE40AF9D5894"
+  },
+  {
+    "file": "public/images/leadership/eusebius-eze.webp",
+    "sha256": "D3B7889A15675F4DCB553E0BA0F6F69BC3873CE663646C70B9CEDF682B1EC795"
+  },
+  {
+    "file": "public/images/leadership/fernando-vega-catalan.webp",
+    "sha256": "77744C316447B94CC492EB526B98E3BEAF91F27BF0543B7C4A4C5FD64A498350"
+  },
+  {
+    "file": "public/images/leadership/julius-okoro.webp",
+    "sha256": "CB6F2CD72CD48A372BF1DA395E1070CD3B427AF97C08B250E04D93CA925D4DD9"
+  },
+  {
+    "file": "public/images/leadership/kingsley-okoronkwo.webp",
+    "sha256": "B69B2C4F2E37AD5D0F0FBE2D688B300CF86835352A2415DA83A5C589B6F6E223"
+  },
+  {
+    "file": "public/images/leadership/michael-ihekwoaba.webp",
+    "sha256": "17453E01AA96D350F0871D3A11DED3BF8F5D139A7B8BB93AC8B36F5F63D122B9"
+  },
+  {
+    "file": "public/images/leadership/sylvia-makuachukwu.webp",
+    "sha256": "CFB21744E2757CCA81A529423C41A01CBF74A891334D1270563C9AD6CE489BF5"
+  },
+  {
+    "file": "public/images/leadership/ugochukwu-azuogu.webp",
+    "sha256": "5AEA5CC8F777F4A8BFAAF5E74FEAEDDA2AB76A0C56466C53E55D690B1B12129E"
+  }
+]

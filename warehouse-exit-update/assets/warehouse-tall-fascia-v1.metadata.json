@@ -1,0 +1,116 @@
+{
+  "image": "warehouse-tall-fascia-v1.png",
+  "prompt": "warehouse-tall-fascia-v1.prompt.txt",
+  "generation": {
+    "method": "built-in imagegen edit",
+    "requests": 1,
+    "retries": 0,
+    "source": "C:\\Users\\ejiog\\Documents\\imokong\\redesign\\public\\images\\banner-supply-parts.png",
+    "sourceUnchanged": true,
+    "rasterPostprocessing": "none; native PNG copied unchanged"
+  },
+  "dimensions": {
+    "width": 1254,
+    "height": 1254
+  },
+  "mode": "RGB",
+  "pngColorType": 2,
+  "alpha": {
+    "present": false,
+    "background": "Opaque baked checkerboard",
+    "samplePixel": {
+      "x": 0,
+      "y": 0,
+      "r": 196,
+      "g": 197,
+      "b": 195,
+      "a": 255
+    }
+  },
+  "coordinates": {
+    "origin": "image top-left",
+    "units": "pixels",
+    "order": "top-left, top-right, bottom-right, bottom-left",
+    "frontWhiteFasciaVisibleQuad": [
+      [
+        453,
+        460
+      ],
+      [
+        1112,
+        353
+      ],
+      [
+        1112,
+        513
+      ],
+      [
+        453,
+        628
+      ]
+    ],
+    "frontWhiteWallTextSafeQuad": [
+      [
+        453,
+        468
+      ],
+      [
+        1103,
+        366
+      ],
+      [
+        1103,
+        500
+      ],
+      [
+        453,
+        608
+      ]
+    ],
+    "doorwayInnerPolygon": [
+      [
+        500,
+        679
+      ],
+      [
+        1071,
+        576
+      ],
+      [
+        1071,
+        913
+      ],
+      [
+        500,
+        1028
+      ]
+    ],
+    "doorwayInnerPolygonNormalized": [
+      [
+        0.39872408293460926,
+        0.5414673046251993
+      ],
+      [
+        0.854066985645933,
+        0.45933014354066987
+      ],
+      [
+        0.854066985645933,
+        0.7280701754385965
+      ],
+      [
+        0.39872408293460926,
+        0.8197767145135566
+      ]
+    ],
+    "coordinateMethod": "Visual inspection of generated output with pixel color sampling; manually traced boundaries, approximately 2–4 pixel tolerance."
+  },
+  "assessment": {
+    "tallWhiteFascia": true,
+    "openingOnRight": true,
+    "doorwayOpen": true,
+    "forkliftAbsent": true,
+    "backgroundTransparencyRequirementMet": false,
+    "notes": "Broad upper front white wall is blank. Door lintel is below writing area. Do not treat checkerboard as transparency. Native output preserved as requested; no retry or cleanup."
+  }
+}

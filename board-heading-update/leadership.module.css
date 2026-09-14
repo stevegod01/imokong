@@ -1,0 +1,72 @@
+.page { padding-top: 44px; }
+.intro { display: grid; grid-template-columns: 1.15fr 1fr; gap: 80px; align-items: end; padding: 12px 0 50px; }
+.intro h1 { margin-top: 22px; }
+.introCopy { max-width: 450px; padding-bottom: 4px; }
+.introCopy .lead { color: var(--foreground); font-size: 25px; line-height: 1.4; letter-spacing: -.6px; margin-bottom: 20px; max-width: 360px; }
+.introCopy p { color: #626b5c; font-size: 16px; line-height: 1.85; }
+.sectionLabel { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 20px 0; border-top: 1px solid var(--border); }
+.sectionLabel h2 { font-size: 11px; }
+.sectionLabel > span { color: #68705f; font-size: 10px; letter-spacing: 1.2px; white-space: nowrap; }
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 46px 28px; }
+.boardGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 46px 38px; }
+.card { min-width: 0; }
+.portrait { position: relative; overflow: hidden; height: 370px; background: #f1f0e9; isolation: isolate; }
+.boardGrid .portrait { height: 410px; }
+.portraitIndex { position: absolute; z-index: 2; top: 18px; left: 20px; color: #74776d; font-size: 11px; letter-spacing: 1px; }
+.portraitImage { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+.cardCopy { padding: 22px 0 0; }
+.role { color: var(--primary); font-size: 12px; font-weight: 600; line-height: 1.65; }
+.card h3 { font-size: 25px; letter-spacing: -.65px; line-height: 1.25; margin-top: 8px; }
+.profileButton { display: flex; justify-content: space-between; align-items: center; width: 100%; border: 0; border-bottom: 1px solid var(--border); background: none; color: #50584b; cursor: pointer; font-size: 13px; font-weight: 600; padding: 20px 0 14px; margin-top: 4px; }
+.profileButton svg { color: var(--primary); }
+.profileButton:hover { border-color: var(--primary); color: var(--primary); }
+.related { display: grid; grid-template-columns: 1fr 1fr; gap: 70px; align-items: center; background: #222b25; color: #fffefa; margin-top: 75px; padding: 42px; }
+.related .eyebrow { color: #c7d1c2; font-size: 11px; }
+.related h2 { font-size: 35px; letter-spacing: -1.2px; line-height: 1.2; margin-top: 18px; }
+.related > div > p:not(.eyebrow) { color: #c7d1c2; line-height: 1.8; max-width: 440px; }
+.related a { margin-top: 20px; border-color: #62715f; }
+.related a:hover { color: #ffad77; border-color: #ffad77; }
+.related a svg { flex-shrink: 0; color: #ffad77; }
+.backLink { margin-top: 30px; }
+.dialog { position: fixed; inset: 0; margin: auto; width: min(720px, calc(100% - 40px)); max-height: min(85dvh, 900px); padding: 0; border: 1px solid var(--border); background: var(--background); color: var(--foreground); box-shadow: 0 24px 100px #10171040; overflow-y: auto; overscroll-behavior: contain; }
+.dialog::backdrop { background: #152019b3; backdrop-filter: blur(4px); }
+:global(body):has(.dialog[open]) { overflow: hidden; }
+.dialogTop { position: sticky; top: 0; background: var(--background); display: flex; align-items: center; justify-content: space-between; gap: 18px; border-bottom: 1px solid var(--border); padding: 16px 28px; }
+.dialogTop .eyebrow { font-size: 10px; color: #68705f; }
+.dialogTop button { flex-shrink: 0; display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid var(--border); background: none; color: var(--foreground); cursor: pointer; }
+.dialogTop button:hover { color: var(--primary); border-color: var(--primary); }
+.dialogContent { padding: 30px 38px 38px; }
+.dialogContent h2 { font-size: clamp(28px, 4vw, 38px); letter-spacing: -1px; line-height: 1.2; margin: 12px 0 28px; }
+.biography { color: #525d4b; line-height: 1.9; }
+.biography p + p { margin-top: 20px; }
+.email { margin-top: 26px; overflow-wrap: anywhere; }
+@media (max-width: 1050px) {
+  .intro { gap: 40px; }
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 35px 25px; }
+  .portrait, .boardGrid .portrait { height: 360px; }
+  .related { gap: 35px; padding: 32px; }
+  .related h2 { font-size: 31px; }
+}
+@media (max-width: 760px) {
+  .page { padding-top: 30px; }
+  .intro { grid-template-columns: 1fr; gap: 24px; padding: 6px 0 35px; }
+  .intro h1 { margin-top: 18px; }
+  .introCopy { max-width: 560px; }
+  .introCopy .lead { font-size: 22px; margin-bottom: 12px; max-width: 100%; }
+  .sectionLabel { gap: 10px; }
+  .sectionLabel h2 { font-size: 10px; letter-spacing: 1px; }
+  .sectionLabel > span { font-size: 9px; letter-spacing: .6px; }
+  .portrait, .boardGrid .portrait { height: 300px; }
+  .card h3 { font-size: 23px; }
+  .related { grid-template-columns: 1fr; gap: 24px; margin-top: 50px; padding: 28px; }
+  .related h2 { font-size: 30px; }
+}
+@media (max-width: 620px) {
+  .grid { grid-template-columns: 1fr; gap: 34px; }
+  .portrait, .boardGrid .portrait { height: auto; aspect-ratio: 1 / 1.04; }
+  .cardCopy { padding-top: 18px; }
+  .role { font-size: 12px; }
+  .card h3 { font-size: 26px; }
+  .dialogTop { padding: 12px 20px; }
+  .dialogContent { padding: 25px 24px 30px; }
+}

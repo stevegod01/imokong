@@ -1,0 +1,15 @@
+/* Compact catalogue introduction: keep products in the first viewport. */
+.catalogue-page{padding-top:44px}
+.catalogue-header{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);align-items:center;gap:64px}
+.catalogue-header h1{font-size:clamp(42px,4.6vw,64px);margin-top:18px;letter-spacing:-2.5px}
+.catalogue-header .intro{max-width:460px;margin:0;justify-self:end}
+.catalogue-page .catalogue-nav{margin-top:32px;padding:0 0 22px}
+.catalogue-page .catalogue-grid{margin-top:30px}
+@media(max-width:760px){
+  .catalogue-page{padding-top:30px}
+  .catalogue-header{grid-template-columns:1fr;gap:20px}
+  .catalogue-header h1{font-size:clamp(38px,8vw,52px);letter-spacing:-1.8px;margin-top:14px}
+  .catalogue-header .intro{justify-self:start;max-width:100%}
+  .catalogue-page .catalogue-nav{margin-top:24px;padding-bottom:18px}
+  .catalogue-page .catalogue-grid{margin-top:24px}
+}

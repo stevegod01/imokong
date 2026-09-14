@@ -1,0 +1,8 @@
+Use case: precise-object-edit
+Asset type: standalone website product drum asset, square canvas.
+Input image: the provided image is the edit target, a four-object sheet. Edit ONLY the stainless steel chemical drum in the TOP LEFT; extract this same drum as the sole object in the output.
+Primary request: remove the entire orange colored band/label around the drum middle and extend its continuous brushed stainless steel finish across that area. Keep the front middle completely clean and blank for a separate logo to be placed later.
+Preserve: the same cylindrical closed-head steel drum, same proportions and slightly elevated viewing perspective, elliptical lid with two bung caps, rolled rims and horizontal ribs, brushed steel highlights, lighting, shading, material realism, and existing polished 3D product-render style.
+Composition: square image, one full drum centered, about 80 percent of canvas height, with small white margins and all rim edges visible.
+Background: pure uniform white, no checkerboard, no floor, no horizon, no shadow outside the drum silhouette.
+Avoid: any orange, any colored band, label, logo, text, watermark, bottle, tray, pellets, sacks, or any other object. This is a targeted object edit preserving the original drum design, not a new drum design.

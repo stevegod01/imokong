@@ -1,0 +1,18 @@
+Source: C:\Users\ejiog\Downloads\almond granola.jpg
+Verified original source dimensions: 1180 x 626 pixels, Format24bppRgb.
+Mask file: nicnax-products-mask.svg
+ViewBox: 0 0 1180 626
+Method: native vector alpha mask. No image generation and no raster editing.
+All silhouettes are solid white paths on a fully transparent SVG background. There is no background rectangle.
+The five primary silhouettes preserve all original photo pixels within each product, including white paper packaging and existing printed labels. Two identifiable foreground peanuts are included in an additional compound path.
+The loose cropped promotional NICNAX lettering below the left carton is outside every mask path and is removed.
+Coordinates (approximate path bounds):
+- almond-cranberry-carton: x=28..351, y=0..550
+- fruity-delight-carton: x=369..698, y=0..552
+- shipping-carton-with-packs: x=725..1170, y=0..321
+- smooth-butter-jar: x=746..908, y=364..622
+- peanut-butter-jar: x=928..1105, y=379..626
+- foreground-peanuts: x=796..929, y=593..626
+Tracing notes: outer edges were placed slightly inside visible object outlines to limit white halos. Paths keep the original top/bottom crop; no product area is reconstructed. Packaging interiors are completely filled with no cutout holes. Cardboard tabs along the shipping-carton base are followed by small polygon steps. The two jar lids and shoulders use cubic curves. Visible foreground nuts near the purple jar are traced separately.
+Apply the mask to the unchanged full source photo, with the mask and photo rendered at identical positions and dimensions. Suggested CSS: mask-image: url(...); mask-mode: alpha; mask-size: 100% 100%; mask-repeat: no-repeat; -webkit-mask-image: url(...); -webkit-mask-size: 100% 100%; -webkit-mask-repeat: no-repeat.
+Validation status: dimensions verified and SVG authored; browser visual inspection and any final contour tuning are assigned to the owner task.

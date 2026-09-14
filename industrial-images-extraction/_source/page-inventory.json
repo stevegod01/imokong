@@ -1,0 +1,1046 @@
+[
+  {
+    "route": "/",
+    "images": [
+      {
+        "src": "/image 3.jpg",
+        "alt": "IMOKO people collaborating in office"
+      },
+      {
+        "src": "/Frame-1618873018@3x.png",
+        "alt": "Glycerine category"
+      },
+      {
+        "src": "/paint solvent.jpg",
+        "alt": "Paint Making Solvents category"
+      },
+      {
+        "src": "/soap noodle.png",
+        "alt": "Soap Making Noodles category"
+      },
+      {
+        "src": "/stearic acid.jpg",
+        "alt": "Stearic Acid category"
+      },
+      {
+        "src": "/oatmeal2.webp",
+        "alt": "Oatmeals category"
+      },
+      {
+        "src": "/truck with pellets.png",
+        "alt": "IMOKO team discussing global supply chain operations"
+      },
+      {
+        "src": "/streamline-plump-leaf-protect.svg",
+        "alt": ""
+      },
+      {
+        "src": "/streamline-ultimate-factory-industrial-robot-arm-1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/image-33@2x.png",
+        "alt": "Partner 33 logo"
+      },
+      {
+        "src": "/image-34@2x.png",
+        "alt": "Partner 34 logo"
+      },
+      {
+        "src": "/DHL-express-logo.png",
+        "alt": "Partner 35 logo"
+      },
+      {
+        "src": "/JAZGLO-jpg-1@2x.png",
+        "alt": "Jazglo logo"
+      },
+      {
+        "src": "/Rectangle-38@2x.jpg",
+        "alt": "The Impact of Technology on the Workplace: How Technology Is Changing Distribution"
+      },
+      {
+        "src": "/Rectangle-381@2x.png",
+        "alt": "Building Reliable Supply Chains in Emerging Markets Through Better Forecasting"
+      },
+      {
+        "src": "/Rectangle-382@2x.png",
+        "alt": "Why Technical Documentation and QA Standards Matter in  Imports"
+      }
+    ],
+    "backgrounds": [
+      "/refinery.jpg",
+      "/warehouse2.jpg",
+      "/shipment-manager-asking-warehouse-workers.jpg"
+    ],
+    "assets": [
+      "/assets/index-CZoyhH2Z.js",
+      "/assets/jsx-runtime-CUBmso4R.js",
+      "/assets/chunk-OE4NN4TA-CW-yG_3B.js",
+      "/assets/createLucideIcon-ByClctpO.js",
+      "/assets/x-CvE9rk9p.js",
+      "/assets/Footer-CorpOhsv.js",
+      "/assets/siteContent-B-cwGydX.js",
+      "/assets/Footer-Ct-H-hvn.css",
+      "/assets/index-Cun0NTob.css",
+      "/assets/PageHero-DN8qHy5a.css",
+      "/assets/Contact-DxgYlaOt.css",
+      "/assets/Home-DVSplFx-.js",
+      "/assets/NewsSection-DOCyBdGY.js",
+      "/assets/NewsCard-DmbFozkq.js",
+      "/assets/NewsCard-DR6a_-OX.css",
+      "/assets/ProductPreview-CLVn6gcR.js",
+      "/assets/ProductCard-ynDOnok1.js",
+      "/assets/ProductCard-D5RL3gEp.css",
+      "/assets/Home-BarpK02R.css"
+    ]
+  },
+  {
+    "route": "/about",
+    "images": [
+      {
+        "src": "/image 3.jpg",
+        "alt": "IMOKO people collaborating in office"
+      },
+      {
+        "src": "/Frame-1618873018@3x.png",
+        "alt": "Glycerine category"
+      },
+      {
+        "src": "/paint solvent.jpg",
+        "alt": "Paint Making Solvents category"
+      },
+      {
+        "src": "/soap noodle.png",
+        "alt": "Soap Making Noodles category"
+      },
+      {
+        "src": "/stearic acid.jpg",
+        "alt": "Stearic Acid category"
+      },
+      {
+        "src": "/oatmeal2.webp",
+        "alt": "Oatmeals category"
+      },
+      {
+        "src": "/truck with pellets.png",
+        "alt": "IMOKO team discussing global supply chain operations"
+      },
+      {
+        "src": "/streamline-plump-leaf-protect.svg",
+        "alt": ""
+      },
+      {
+        "src": "/streamline-ultimate-factory-industrial-robot-arm-1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/image-33@2x.png",
+        "alt": "Partner 33 logo"
+      },
+      {
+        "src": "/image-34@2x.png",
+        "alt": "Partner 34 logo"
+      },
+      {
+        "src": "/DHL-express-logo.png",
+        "alt": "Partner 35 logo"
+      },
+      {
+        "src": "/JAZGLO-jpg-1@2x.png",
+        "alt": "Jazglo logo"
+      },
+      {
+        "src": "/Rectangle-38@2x.jpg",
+        "alt": "The Impact of Technology on the Workplace: How Technology Is Changing Distribution"
+      },
+      {
+        "src": "/Rectangle-381@2x.png",
+        "alt": "Building Reliable Supply Chains in Emerging Markets Through Better Forecasting"
+      },
+      {
+        "src": "/Rectangle-382@2x.png",
+        "alt": "Why Technical Documentation and QA Standards Matter in  Imports"
+      }
+    ],
+    "backgrounds": [
+      "/refinery.jpg",
+      "/warehouse2.jpg",
+      "/shipment-manager-asking-warehouse-workers.jpg"
+    ],
+    "assets": [
+      "/assets/index-CZoyhH2Z.js",
+      "/assets/jsx-runtime-CUBmso4R.js",
+      "/assets/chunk-OE4NN4TA-CW-yG_3B.js",
+      "/assets/createLucideIcon-ByClctpO.js",
+      "/assets/x-CvE9rk9p.js",
+      "/assets/Footer-CorpOhsv.js",
+      "/assets/siteContent-B-cwGydX.js",
+      "/assets/Footer-Ct-H-hvn.css",
+      "/assets/index-Cun0NTob.css",
+      "/assets/PageHero-DN8qHy5a.css",
+      "/assets/Contact-DxgYlaOt.css",
+      "/assets/Home-DVSplFx-.js",
+      "/assets/NewsSection-DOCyBdGY.js",
+      "/assets/NewsCard-DmbFozkq.js",
+      "/assets/NewsCard-DR6a_-OX.css",
+      "/assets/ProductPreview-CLVn6gcR.js",
+      "/assets/ProductCard-ynDOnok1.js",
+      "/assets/ProductCard-D5RL3gEp.css",
+      "/assets/Home-BarpK02R.css"
+    ]
+  },
+  {
+    "route": "/products",
+    "images": [
+      {
+        "src": "/image 3.jpg",
+        "alt": "IMOKO people collaborating in office"
+      },
+      {
+        "src": "/Frame-1618873018@3x.png",
+        "alt": "Glycerine category"
+      },
+      {
+        "src": "/paint solvent.jpg",
+        "alt": "Paint Making Solvents category"
+      },
+      {
+        "src": "/soap noodle.png",
+        "alt": "Soap Making Noodles category"
+      },
+      {
+        "src": "/stearic acid.jpg",
+        "alt": "Stearic Acid category"
+      },
+      {
+        "src": "/oatmeal2.webp",
+        "alt": "Oatmeals category"
+      },
+      {
+        "src": "/truck with pellets.png",
+        "alt": "IMOKO team discussing global supply chain operations"
+      },
+      {
+        "src": "/streamline-plump-leaf-protect.svg",
+        "alt": ""
+      },
+      {
+        "src": "/streamline-ultimate-factory-industrial-robot-arm-1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/image-33@2x.png",
+        "alt": "Partner 33 logo"
+      },
+      {
+        "src": "/image-34@2x.png",
+        "alt": "Partner 34 logo"
+      },
+      {
+        "src": "/DHL-express-logo.png",
+        "alt": "Partner 35 logo"
+      },
+      {
+        "src": "/JAZGLO-jpg-1@2x.png",
+        "alt": "Jazglo logo"
+      },
+      {
+        "src": "/Rectangle-38@2x.jpg",
+        "alt": "The Impact of Technology on the Workplace: How Technology Is Changing Distribution"
+      },
+      {
+        "src": "/Rectangle-381@2x.png",
+        "alt": "Building Reliable Supply Chains in Emerging Markets Through Better Forecasting"
+      },
+      {
+        "src": "/Rectangle-382@2x.png",
+        "alt": "Why Technical Documentation and QA Standards Matter in  Imports"
+      }
+    ],
+    "backgrounds": [
+      "/refinery.jpg",
+      "/warehouse2.jpg",
+      "/shipment-manager-asking-warehouse-workers.jpg"
+    ],
+    "assets": [
+      "/assets/index-CZoyhH2Z.js",
+      "/assets/jsx-runtime-CUBmso4R.js",
+      "/assets/chunk-OE4NN4TA-CW-yG_3B.js",
+      "/assets/createLucideIcon-ByClctpO.js",
+      "/assets/x-CvE9rk9p.js",
+      "/assets/Footer-CorpOhsv.js",
+      "/assets/siteContent-B-cwGydX.js",
+      "/assets/Footer-Ct-H-hvn.css",
+      "/assets/index-Cun0NTob.css",
+      "/assets/PageHero-DN8qHy5a.css",
+      "/assets/Contact-DxgYlaOt.css",
+      "/assets/Home-DVSplFx-.js",
+      "/assets/NewsSection-DOCyBdGY.js",
+      "/assets/NewsCard-DmbFozkq.js",
+      "/assets/NewsCard-DR6a_-OX.css",
+      "/assets/ProductPreview-CLVn6gcR.js",
+      "/assets/ProductCard-ynDOnok1.js",
+      "/assets/ProductCard-D5RL3gEp.css",
+      "/assets/Home-BarpK02R.css"
+    ]
+  },
+  {
+    "route": "/partners",
+    "images": [
+      {
+        "src": "/image 3.jpg",
+        "alt": "IMOKO people collaborating in office"
+      },
+      {
+        "src": "/Frame-1618873018@3x.png",
+        "alt": "Glycerine category"
+      },
+      {
+        "src": "/paint solvent.jpg",
+        "alt": "Paint Making Solvents category"
+      },
+      {
+        "src": "/soap noodle.png",
+        "alt": "Soap Making Noodles category"
+      },
+      {
+        "src": "/stearic acid.jpg",
+        "alt": "Stearic Acid category"
+      },
+      {
+        "src": "/oatmeal2.webp",
+        "alt": "Oatmeals category"
+      },
+      {
+        "src": "/truck with pellets.png",
+        "alt": "IMOKO team discussing global supply chain operations"
+      },
+      {
+        "src": "/streamline-plump-leaf-protect.svg",
+        "alt": ""
+      },
+      {
+        "src": "/streamline-ultimate-factory-industrial-robot-arm-1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/image-33@2x.png",
+        "alt": "Partner 33 logo"
+      },
+      {
+        "src": "/image-34@2x.png",
+        "alt": "Partner 34 logo"
+      },
+      {
+        "src": "/DHL-express-logo.png",
+        "alt": "Partner 35 logo"
+      },
+      {
+        "src": "/JAZGLO-jpg-1@2x.png",
+        "alt": "Jazglo logo"
+      },
+      {
+        "src": "/Rectangle-38@2x.jpg",
+        "alt": "The Impact of Technology on the Workplace: How Technology Is Changing Distribution"
+      },
+      {
+        "src": "/Rectangle-381@2x.png",
+        "alt": "Building Reliable Supply Chains in Emerging Markets Through Better Forecasting"
+      },
+      {
+        "src": "/Rectangle-382@2x.png",
+        "alt": "Why Technical Documentation and QA Standards Matter in  Imports"
+      }
+    ],
+    "backgrounds": [
+      "/refinery.jpg",
+      "/warehouse2.jpg",
+      "/shipment-manager-asking-warehouse-workers.jpg"
+    ],
+    "assets": [
+      "/assets/index-CZoyhH2Z.js",
+      "/assets/jsx-runtime-CUBmso4R.js",
+      "/assets/chunk-OE4NN4TA-CW-yG_3B.js",
+      "/assets/createLucideIcon-ByClctpO.js",
+      "/assets/x-CvE9rk9p.js",
+      "/assets/Footer-CorpOhsv.js",
+      "/assets/siteContent-B-cwGydX.js",
+      "/assets/Footer-Ct-H-hvn.css",
+      "/assets/index-Cun0NTob.css",
+      "/assets/PageHero-DN8qHy5a.css",
+      "/assets/Contact-DxgYlaOt.css",
+      "/assets/Home-DVSplFx-.js",
+      "/assets/NewsSection-DOCyBdGY.js",
+      "/assets/NewsCard-DmbFozkq.js",
+      "/assets/NewsCard-DR6a_-OX.css",
+      "/assets/ProductPreview-CLVn6gcR.js",
+      "/assets/ProductCard-ynDOnok1.js",
+      "/assets/ProductCard-D5RL3gEp.css",
+      "/assets/Home-BarpK02R.css"
+    ]
+  },
+  {
+    "route": "/sustainability",
+    "images": [
+      {
+        "src": "/image 3.jpg",
+        "alt": "IMOKO people collaborating in office"
+      },
+      {
+        "src": "/Frame-1618873018@3x.png",
+        "alt": "Glycerine category"
+      },
+      {
+        "src": "/paint solvent.jpg",
+        "alt": "Paint Making Solvents category"
+      },
+      {
+        "src": "/soap noodle.png",
+        "alt": "Soap Making Noodles category"
+      },
+      {
+        "src": "/stearic acid.jpg",
+        "alt": "Stearic Acid category"
+      },
+      {
+        "src": "/oatmeal2.webp",
+        "alt": "Oatmeals category"
+      },
+      {
+        "src": "/truck with pellets.png",
+        "alt": "IMOKO team discussing global supply chain operations"
+      },
+      {
+        "src": "/streamline-plump-leaf-protect.svg",
+        "alt": ""
+      },
+      {
+        "src": "/streamline-ultimate-factory-industrial-robot-arm-1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/image-33@2x.png",
+        "alt": "Partner 33 logo"
+      },
+      {
+        "src": "/image-34@2x.png",
+        "alt": "Partner 34 logo"
+      },
+      {
+        "src": "/DHL-express-logo.png",
+        "alt": "Partner 35 logo"
+      },
+      {
+        "src": "/JAZGLO-jpg-1@2x.png",
+        "alt": "Jazglo logo"
+      },
+      {
+        "src": "/Rectangle-38@2x.jpg",
+        "alt": "The Impact of Technology on the Workplace: How Technology Is Changing Distribution"
+      },
+      {
+        "src": "/Rectangle-381@2x.png",
+        "alt": "Building Reliable Supply Chains in Emerging Markets Through Better Forecasting"
+      },
+      {
+        "src": "/Rectangle-382@2x.png",
+        "alt": "Why Technical Documentation and QA Standards Matter in  Imports"
+      }
+    ],
+    "backgrounds": [
+      "/refinery.jpg",
+      "/warehouse2.jpg",
+      "/shipment-manager-asking-warehouse-workers.jpg"
+    ],
+    "assets": [
+      "/assets/index-CZoyhH2Z.js",
+      "/assets/jsx-runtime-CUBmso4R.js",
+      "/assets/chunk-OE4NN4TA-CW-yG_3B.js",
+      "/assets/createLucideIcon-ByClctpO.js",
+      "/assets/x-CvE9rk9p.js",
+      "/assets/Footer-CorpOhsv.js",
+      "/assets/siteContent-B-cwGydX.js",
+      "/assets/Footer-Ct-H-hvn.css",
+      "/assets/index-Cun0NTob.css",
+      "/assets/PageHero-DN8qHy5a.css",
+      "/assets/Contact-DxgYlaOt.css",
+      "/assets/Home-DVSplFx-.js",
+      "/assets/NewsSection-DOCyBdGY.js",
+      "/assets/NewsCard-DmbFozkq.js",
+      "/assets/NewsCard-DR6a_-OX.css",
+      "/assets/ProductPreview-CLVn6gcR.js",
+      "/assets/ProductCard-ynDOnok1.js",
+      "/assets/ProductCard-D5RL3gEp.css",
+      "/assets/Home-BarpK02R.css"
+    ]
+  },
+  {
+    "route": "/site-map",
+    "images": [
+      {
+        "src": "/image 3.jpg",
+        "alt": "IMOKO people collaborating in office"
+      },
+      {
+        "src": "/Frame-1618873018@3x.png",
+        "alt": "Glycerine category"
+      },
+      {
+        "src": "/paint solvent.jpg",
+        "alt": "Paint Making Solvents category"
+      },
+      {
+        "src": "/soap noodle.png",
+        "alt": "Soap Making Noodles category"
+      },
+      {
+        "src": "/stearic acid.jpg",
+        "alt": "Stearic Acid category"
+      },
+      {
+        "src": "/oatmeal2.webp",
+        "alt": "Oatmeals category"
+      },
+      {
+        "src": "/truck with pellets.png",
+        "alt": "IMOKO team discussing global supply chain operations"
+      },
+      {
+        "src": "/streamline-plump-leaf-protect.svg",
+        "alt": ""
+      },
+      {
+        "src": "/streamline-ultimate-factory-industrial-robot-arm-1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/image-33@2x.png",
+        "alt": "Partner 33 logo"
+      },
+      {
+        "src": "/image-34@2x.png",
+        "alt": "Partner 34 logo"
+      },
+      {
+        "src": "/DHL-express-logo.png",
+        "alt": "Partner 35 logo"
+      },
+      {
+        "src": "/JAZGLO-jpg-1@2x.png",
+        "alt": "Jazglo logo"
+      },
+      {
+        "src": "/Rectangle-38@2x.jpg",
+        "alt": "The Impact of Technology on the Workplace: How Technology Is Changing Distribution"
+      },
+      {
+        "src": "/Rectangle-381@2x.png",
+        "alt": "Building Reliable Supply Chains in Emerging Markets Through Better Forecasting"
+      },
+      {
+        "src": "/Rectangle-382@2x.png",
+        "alt": "Why Technical Documentation and QA Standards Matter in  Imports"
+      }
+    ],
+    "backgrounds": [
+      "/refinery.jpg",
+      "/warehouse2.jpg",
+      "/shipment-manager-asking-warehouse-workers.jpg"
+    ],
+    "assets": [
+      "/assets/index-CZoyhH2Z.js",
+      "/assets/jsx-runtime-CUBmso4R.js",
+      "/assets/chunk-OE4NN4TA-CW-yG_3B.js",
+      "/assets/createLucideIcon-ByClctpO.js",
+      "/assets/x-CvE9rk9p.js",
+      "/assets/Footer-CorpOhsv.js",
+      "/assets/siteContent-B-cwGydX.js",
+      "/assets/Footer-Ct-H-hvn.css",
+      "/assets/index-Cun0NTob.css",
+      "/assets/PageHero-DN8qHy5a.css",
+      "/assets/Contact-DxgYlaOt.css",
+      "/assets/Home-DVSplFx-.js",
+      "/assets/NewsSection-DOCyBdGY.js",
+      "/assets/NewsCard-DmbFozkq.js",
+      "/assets/NewsCard-DR6a_-OX.css",
+      "/assets/ProductPreview-CLVn6gcR.js",
+      "/assets/ProductCard-ynDOnok1.js",
+      "/assets/ProductCard-D5RL3gEp.css",
+      "/assets/Home-BarpK02R.css"
+    ],
+    "links": [
+      "/contact",
+      "/product-detail/raw/glycerine",
+      "/product-detail/raw/paint-making-solvents",
+      "/product-detail/raw/soap-making-noodles",
+      "/product-detail/raw/stearic-acid",
+      "/product-detail/finished/oatmeals",
+      "/partners",
+      "/sustainability",
+      "/news",
+      "/news/tech-workplace",
+      "/news/supply-resilience",
+      "/news/quality-control"
+    ]
+  },
+  {
+    "route": "/product-detail/raw/soap-making-noodles",
+    "images": [
+      {
+        "src": "/image 3.jpg",
+        "alt": "IMOKO people collaborating in office"
+      },
+      {
+        "src": "/Frame-1618873018@3x.png",
+        "alt": "Glycerine category"
+      },
+      {
+        "src": "/paint solvent.jpg",
+        "alt": "Paint Making Solvents category"
+      },
+      {
+        "src": "/soap noodle.png",
+        "alt": "Soap Making Noodles category"
+      },
+      {
+        "src": "/stearic acid.jpg",
+        "alt": "Stearic Acid category"
+      },
+      {
+        "src": "/oatmeal2.webp",
+        "alt": "Oatmeals category"
+      },
+      {
+        "src": "/truck with pellets.png",
+        "alt": "IMOKO team discussing global supply chain operations"
+      },
+      {
+        "src": "/streamline-plump-leaf-protect.svg",
+        "alt": ""
+      },
+      {
+        "src": "/streamline-ultimate-factory-industrial-robot-arm-1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/image-33@2x.png",
+        "alt": "Partner 33 logo"
+      },
+      {
+        "src": "/image-34@2x.png",
+        "alt": "Partner 34 logo"
+      },
+      {
+        "src": "/DHL-express-logo.png",
+        "alt": "Partner 35 logo"
+      },
+      {
+        "src": "/JAZGLO-jpg-1@2x.png",
+        "alt": "Jazglo logo"
+      },
+      {
+        "src": "/Rectangle-38@2x.jpg",
+        "alt": "The Impact of Technology on the Workplace: How Technology Is Changing Distribution"
+      },
+      {
+        "src": "/Rectangle-381@2x.png",
+        "alt": "Building Reliable Supply Chains in Emerging Markets Through Better Forecasting"
+      },
+      {
+        "src": "/Rectangle-382@2x.png",
+        "alt": "Why Technical Documentation and QA Standards Matter in  Imports"
+      }
+    ],
+    "backgrounds": [
+      "/refinery.jpg",
+      "/warehouse2.jpg",
+      "/shipment-manager-asking-warehouse-workers.jpg"
+    ],
+    "assets": [
+      "/assets/index-CZoyhH2Z.js",
+      "/assets/jsx-runtime-CUBmso4R.js",
+      "/assets/chunk-OE4NN4TA-CW-yG_3B.js",
+      "/assets/createLucideIcon-ByClctpO.js",
+      "/assets/x-CvE9rk9p.js",
+      "/assets/Footer-CorpOhsv.js",
+      "/assets/siteContent-B-cwGydX.js",
+      "/assets/Footer-Ct-H-hvn.css",
+      "/assets/index-Cun0NTob.css",
+      "/assets/PageHero-DN8qHy5a.css",
+      "/assets/Contact-DxgYlaOt.css",
+      "/assets/Home-DVSplFx-.js",
+      "/assets/NewsSection-DOCyBdGY.js",
+      "/assets/NewsCard-DmbFozkq.js",
+      "/assets/NewsCard-DR6a_-OX.css",
+      "/assets/ProductPreview-CLVn6gcR.js",
+      "/assets/ProductCard-ynDOnok1.js",
+      "/assets/ProductCard-D5RL3gEp.css",
+      "/assets/Home-BarpK02R.css"
+    ]
+  },
+  {
+    "route": "/product-detail/raw/paint-making-solvents",
+    "images": [
+      {
+        "src": "/image 3.jpg",
+        "alt": "IMOKO people collaborating in office"
+      },
+      {
+        "src": "/Frame-1618873018@3x.png",
+        "alt": "Glycerine category"
+      },
+      {
+        "src": "/paint solvent.jpg",
+        "alt": "Paint Making Solvents category"
+      },
+      {
+        "src": "/soap noodle.png",
+        "alt": "Soap Making Noodles category"
+      },
+      {
+        "src": "/stearic acid.jpg",
+        "alt": "Stearic Acid category"
+      },
+      {
+        "src": "/oatmeal2.webp",
+        "alt": "Oatmeals category"
+      },
+      {
+        "src": "/truck with pellets.png",
+        "alt": "IMOKO team discussing global supply chain operations"
+      },
+      {
+        "src": "/streamline-plump-leaf-protect.svg",
+        "alt": ""
+      },
+      {
+        "src": "/streamline-ultimate-factory-industrial-robot-arm-1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/image-33@2x.png",
+        "alt": "Partner 33 logo"
+      },
+      {
+        "src": "/image-34@2x.png",
+        "alt": "Partner 34 logo"
+      },
+      {
+        "src": "/DHL-express-logo.png",
+        "alt": "Partner 35 logo"
+      },
+      {
+        "src": "/JAZGLO-jpg-1@2x.png",
+        "alt": "Jazglo logo"
+      },
+      {
+        "src": "/Rectangle-38@2x.jpg",
+        "alt": "The Impact of Technology on the Workplace: How Technology Is Changing Distribution"
+      },
+      {
+        "src": "/Rectangle-381@2x.png",
+        "alt": "Building Reliable Supply Chains in Emerging Markets Through Better Forecasting"
+      },
+      {
+        "src": "/Rectangle-382@2x.png",
+        "alt": "Why Technical Documentation and QA Standards Matter in  Imports"
+      }
+    ],
+    "backgrounds": [
+      "/refinery.jpg",
+      "/warehouse2.jpg",
+      "/shipment-manager-asking-warehouse-workers.jpg"
+    ],
+    "assets": [
+      "/assets/index-CZoyhH2Z.js",
+      "/assets/jsx-runtime-CUBmso4R.js",
+      "/assets/chunk-OE4NN4TA-CW-yG_3B.js",
+      "/assets/createLucideIcon-ByClctpO.js",
+      "/assets/x-CvE9rk9p.js",
+      "/assets/Footer-CorpOhsv.js",
+      "/assets/siteContent-B-cwGydX.js",
+      "/assets/Footer-Ct-H-hvn.css",
+      "/assets/index-Cun0NTob.css",
+      "/assets/PageHero-DN8qHy5a.css",
+      "/assets/Contact-DxgYlaOt.css",
+      "/assets/Home-DVSplFx-.js",
+      "/assets/NewsSection-DOCyBdGY.js",
+      "/assets/NewsCard-DmbFozkq.js",
+      "/assets/NewsCard-DR6a_-OX.css",
+      "/assets/ProductPreview-CLVn6gcR.js",
+      "/assets/ProductCard-ynDOnok1.js",
+      "/assets/ProductCard-D5RL3gEp.css",
+      "/assets/Home-BarpK02R.css"
+    ]
+  },
+  {
+    "route": "/product-detail/raw/glycerine",
+    "images": [
+      {
+        "src": "/image 3.jpg",
+        "alt": "IMOKO people collaborating in office"
+      },
+      {
+        "src": "/Frame-1618873018@3x.png",
+        "alt": "Glycerine category"
+      },
+      {
+        "src": "/paint solvent.jpg",
+        "alt": "Paint Making Solvents category"
+      },
+      {
+        "src": "/soap noodle.png",
+        "alt": "Soap Making Noodles category"
+      },
+      {
+        "src": "/stearic acid.jpg",
+        "alt": "Stearic Acid category"
+      },
+      {
+        "src": "/oatmeal2.webp",
+        "alt": "Oatmeals category"
+      },
+      {
+        "src": "/truck with pellets.png",
+        "alt": "IMOKO team discussing global supply chain operations"
+      },
+      {
+        "src": "/streamline-plump-leaf-protect.svg",
+        "alt": ""
+      },
+      {
+        "src": "/streamline-ultimate-factory-industrial-robot-arm-1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/image-33@2x.png",
+        "alt": "Partner 33 logo"
+      },
+      {
+        "src": "/image-34@2x.png",
+        "alt": "Partner 34 logo"
+      },
+      {
+        "src": "/DHL-express-logo.png",
+        "alt": "Partner 35 logo"
+      },
+      {
+        "src": "/JAZGLO-jpg-1@2x.png",
+        "alt": "Jazglo logo"
+      },
+      {
+        "src": "/Rectangle-38@2x.jpg",
+        "alt": "The Impact of Technology on the Workplace: How Technology Is Changing Distribution"
+      },
+      {
+        "src": "/Rectangle-381@2x.png",
+        "alt": "Building Reliable Supply Chains in Emerging Markets Through Better Forecasting"
+      },
+      {
+        "src": "/Rectangle-382@2x.png",
+        "alt": "Why Technical Documentation and QA Standards Matter in  Imports"
+      }
+    ],
+    "backgrounds": [
+      "/refinery.jpg",
+      "/warehouse2.jpg",
+      "/shipment-manager-asking-warehouse-workers.jpg"
+    ],
+    "assets": [
+      "/assets/index-CZoyhH2Z.js",
+      "/assets/jsx-runtime-CUBmso4R.js",
+      "/assets/chunk-OE4NN4TA-CW-yG_3B.js",
+      "/assets/createLucideIcon-ByClctpO.js",
+      "/assets/x-CvE9rk9p.js",
+      "/assets/Footer-CorpOhsv.js",
+      "/assets/siteContent-B-cwGydX.js",
+      "/assets/Footer-Ct-H-hvn.css",
+      "/assets/index-Cun0NTob.css",
+      "/assets/PageHero-DN8qHy5a.css",
+      "/assets/Contact-DxgYlaOt.css",
+      "/assets/Home-DVSplFx-.js",
+      "/assets/NewsSection-DOCyBdGY.js",
+      "/assets/NewsCard-DmbFozkq.js",
+      "/assets/NewsCard-DR6a_-OX.css",
+      "/assets/ProductPreview-CLVn6gcR.js",
+      "/assets/ProductCard-ynDOnok1.js",
+      "/assets/ProductCard-D5RL3gEp.css",
+      "/assets/Home-BarpK02R.css"
+    ]
+  },
+  {
+    "route": "/product-detail/raw/stearic-acid",
+    "images": [
+      {
+        "src": "/image 3.jpg",
+        "alt": "IMOKO people collaborating in office"
+      },
+      {
+        "src": "/Frame-1618873018@3x.png",
+        "alt": "Glycerine category"
+      },
+      {
+        "src": "/paint solvent.jpg",
+        "alt": "Paint Making Solvents category"
+      },
+      {
+        "src": "/soap noodle.png",
+        "alt": "Soap Making Noodles category"
+      },
+      {
+        "src": "/stearic acid.jpg",
+        "alt": "Stearic Acid category"
+      },
+      {
+        "src": "/oatmeal2.webp",
+        "alt": "Oatmeals category"
+      },
+      {
+        "src": "/truck with pellets.png",
+        "alt": "IMOKO team discussing global supply chain operations"
+      },
+      {
+        "src": "/streamline-plump-leaf-protect.svg",
+        "alt": ""
+      },
+      {
+        "src": "/streamline-ultimate-factory-industrial-robot-arm-1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector.svg",
+        "alt": ""
+      },
+      {
+        "src": "/Vector1.svg",
+        "alt": ""
+      },
+      {
+        "src": "/image-33@2x.png",
+        "alt": "Partner 33 logo"
+      },
+      {
+        "src": "/image-34@2x.png",
+        "alt": "Partner 34 logo"
+      },
+      {
+        "src": "/DHL-express-logo.png",
+        "alt": "Partner 35 logo"
+      },
+      {
+        "src": "/JAZGLO-jpg-1@2x.png",
+        "alt": "Jazglo logo"
+      },
+      {
+        "src": "/Rectangle-38@2x.jpg",
+        "alt": "The Impact of Technology on the Workplace: How Technology Is Changing Distribution"
+      },
+      {
+        "src": "/Rectangle-381@2x.png",
+        "alt": "Building Reliable Supply Chains in Emerging Markets Through Better Forecasting"
+      },
+      {
+        "src": "/Rectangle-382@2x.png",
+        "alt": "Why Technical Documentation and QA Standards Matter in  Imports"
+      }
+    ],
+    "backgrounds": [
+      "/refinery.jpg",
+      "/warehouse2.jpg",
+      "/shipment-manager-asking-warehouse-workers.jpg"
+    ],
+    "assets": [
+      "/assets/index-CZoyhH2Z.js",
+      "/assets/jsx-runtime-CUBmso4R.js",
+      "/assets/chunk-OE4NN4TA-CW-yG_3B.js",
+      "/assets/createLucideIcon-ByClctpO.js",
+      "/assets/x-CvE9rk9p.js",
+      "/assets/Footer-CorpOhsv.js",
+      "/assets/siteContent-B-cwGydX.js",
+      "/assets/Footer-Ct-H-hvn.css",
+      "/assets/index-Cun0NTob.css",
+      "/assets/PageHero-DN8qHy5a.css",
+      "/assets/Contact-DxgYlaOt.css",
+      "/assets/Home-DVSplFx-.js",
+      "/assets/NewsSection-DOCyBdGY.js",
+      "/assets/NewsCard-DmbFozkq.js",
+      "/assets/NewsCard-DR6a_-OX.css",
+      "/assets/ProductPreview-CLVn6gcR.js",
+      "/assets/ProductCard-ynDOnok1.js",
+      "/assets/ProductCard-D5RL3gEp.css",
+      "/assets/Home-BarpK02R.css"
+    ]
+  }
+]

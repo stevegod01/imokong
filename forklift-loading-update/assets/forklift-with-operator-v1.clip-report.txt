@@ -1,0 +1,25 @@
+Confident foreground: 18 components, largest 597670 pixels.
+Retained hole 1: area 5211, bounds (530,184)-(561,413), grey fraction 0.478, bright fraction 0.452.
+Retained hole 2: area 20232, bounds (655,230)-(791,502), grey fraction 0.487, bright fraction 0.447.
+Retained hole 3: area 13374, bounds (924,232)-(1052,386), grey fraction 0.470, bright fraction 0.439.
+Retained hole 4: area 1537, bounds (818,285)-(855,355), grey fraction 0.489, bright fraction 0.432.
+Retained hole 5: area 174, bounds (757,367)-(771,388), grey fraction 0.310, bright fraction 0.609.
+Retained hole 6: area 729, bounds (379,423)-(386,537), grey fraction 0.416, bright fraction 0.447.
+Retained hole 7: area 175, bounds (552,426)-(560,462), grey fraction 0.434, bright fraction 0.480.
+Retained hole 8: area 414, bounds (792,433)-(833,472), grey fraction 0.430, bright fraction 0.519.
+Retained hole 9: area 735, bounds (411,434)-(417,550), grey fraction 0.438, bright fraction 0.473.
+Retained hole 10: area 242, bounds (550,487)-(553,548), grey fraction 0.579, bright fraction 0.368.
+Retained hole 11: area 711, bounds (380,563)-(413,593), grey fraction 0.485, bright fraction 0.466.
+Retained 11 meaningful checkerboard holes; filled 39 small/non-checkerboard enclosed regions.
+Contour: area 664462, 186 simplified vertices, bounds (34,117)-(1209,1059).
+Contour: area -20280, 64 simplified vertices, bounds (655,230)-(792,503).
+Contour: area -13343, 24 simplified vertices, bounds (924,232)-(1053,387).
+Contour: area -5204, 8 simplified vertices, bounds (530,184)-(561,414).
+Contour: area -1564, 14 simplified vertices, bounds (818,285)-(856,356).
+Contour: area -746, 4 simplified vertices, bounds (411,434)-(418,551).
+Contour: area -783, 5 simplified vertices, bounds (379,423)-(387,538).
+Contour: area -704, 6 simplified vertices, bounds (380,563)-(414,594).
+Contour: area -401, 13 simplified vertices, bounds (792,433)-(834,473).
+Contour: area -184, 4 simplified vertices, bounds (550,487)-(554,549).
+Contour: area -160, 4 simplified vertices, bounds (552,426)-(561,463).
+Contour: area -182, 10 simplified vertices, bounds (757,367)-(772,389).

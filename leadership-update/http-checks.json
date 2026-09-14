@@ -1,0 +1,72 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "title": "IMOKO — Quality materials. Reliable supply."
+  },
+  {
+    "path": "/about",
+    "status": 200,
+    "title": "About IMOKO | IMOKO"
+  },
+  {
+    "path": "/leadership/board-of-directors",
+    "status": 200,
+    "title": "Board of Directors — About IMOKO | IMOKO"
+  },
+  {
+    "path": "/leadership/executive-management",
+    "status": 200,
+    "title": "Executive Management — About IMOKO | IMOKO"
+  },
+  {
+    "path": "/partners",
+    "status": 200,
+    "title": "Our partners | IMOKO"
+  },
+  {
+    "path": "/products",
+    "status": 200,
+    "title": "Our products | IMOKO"
+  },
+  {
+    "path": "/images/leadership/chimezie-anyakora.webp",
+    "status": 200,
+    "title": "portrait"
+  },
+  {
+    "path": "/images/leadership/eusebius-eze.webp",
+    "status": 200,
+    "title": "portrait"
+  },
+  {
+    "path": "/images/leadership/fernando-vega-catalan.webp",
+    "status": 200,
+    "title": "portrait"
+  },
+  {
+    "path": "/images/leadership/julius-okoro.webp",
+    "status": 200,
+    "title": "portrait"
+  },
+  {
+    "path": "/images/leadership/kingsley-okoronkwo.webp",
+    "status": 200,
+    "title": "portrait"
+  },
+  {
+    "path": "/images/leadership/michael-ihekwoaba.webp",
+    "status": 200,
+    "title": "portrait"
+  },
+  {
+    "path": "/images/leadership/sylvia-makuachukwu.webp",
+    "status": 200,
+    "title": "portrait"
+  },
+  {
+    "path": "/images/leadership/ugochukwu-azuogu.webp",
+    "status": 200,
+    "title": "portrait"
+  }
+]

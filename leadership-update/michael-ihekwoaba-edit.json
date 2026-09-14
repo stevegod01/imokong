@@ -1,0 +1,9 @@
+{
+  "id": "michael-ihekwoaba",
+  "mode": "built-in image_gen",
+  "inputPath": "C:/Users/ejiog/OneDrive/Documents/imokong/leadership-update/originals/michael-ihekwoaba.jpeg",
+  "prompt": "Use case: identity-preserve. Asset type: IMOKO leadership website portrait. Input image: the attached photograph is the edit target. Replace only the saturated orange background with a perfectly solid warm neutral background, color #f1f0e9. Preserve the exact person's identity, facial features, age, hair, skin tone, clothing, accessories, expression, and pose. Keep original subject pixels as faithfully as possible. No retouching, smoothing, restyling, recoloring of the subject, added text, props, or logos. Aim for a clean consistent 4:5 portrait canvas: center the existing person, leave comfortable space between the head and top edge, and have the existing torso extend flush to the lower edge. Use crop and background canvas extension as needed; do not invent limbs or change the subject. Output exactly one edited portrait.",
+  "generatedSourcePath": "C:\\Users\\ejiog\\.codex\\generated_images\\01a09ff4-9316-7190-a6f5-ad4877fa9998\\exec-ed7ccc29-983b-4cf2-9d4a-e56a00815cd0.png",
+  "finalPath": "C:/Users/ejiog/OneDrive/Documents/imokong/vercel-preview/public/images/leadership/michael-ihekwoaba.png",
+  "inspection": "Neutral background and roughly 4:5 framing achieved. Face, expression, clothing, accessories and pose remain recognizably consistent; generative processing recreates fine subject texture and is not pixel-identical to the original."
+}

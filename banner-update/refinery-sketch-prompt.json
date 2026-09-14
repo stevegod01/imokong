@@ -1,0 +1,21 @@
+{
+  "use_case": "style-transfer",
+  "tool": "built-in image_gen",
+  "request_type": "edit",
+  "prompt": "Use case: style-transfer\nAsset type: transparent refinery sketch underlay for homepage banner 1.\nInput image 1 is the edit target: the supplied photograph of a refinery. Transform this particular refinery photo into a faithful architectural pencil and fine technical-ink sketch. Preserve the recognizable camera perspective and arrangement of major forms, especially the very tall striped chimney toward the right, the central process towers, pipes, platforms, and foreground industrial structures. Keep the structural character and banded divisions of the chimney in monochrome outline. Simplify ground clutter and incidental equipment, while retaining the refinery identity.\nStyle: crisp, delicate graphite/charcoal-gray contour lines, thin technical drawing strokes, sparse light hatching, airy open structure with no large dark fills. Monochrome neutral gray, no colors. Intended as a subtle full-width webpage background behind dark text and colored product artwork.\nComposition: wide landscape, refinery spans the lower portion, tall right-hand chimney fully visible, generous open transparent sky. Preserve the perspective; do not invent a different facility.\nTransparency requirements: output a PNG with genuine alpha transparency. The sky, all negative-space gaps between the lines, and unmarked building/ground interiors must be truly transparent. Sketch lines should float directly on transparent pixels. No white paper, no solid backdrop, no paper texture, no gradients, no checkerboard painted into the image. No text, logos, watermarks, frame, or border.",
+  "source": {
+    "path": "C:\\Users\\ejiog\\OneDrive\\Documents\\imokong\\industrial-images-extraction\\IMOKO-industrial-images\\industrial-photos\\refinery.jpg",
+    "role": "edit target",
+    "selection": "User-selected image 01, refinery photo"
+  },
+  "generated_original": "C:\\Users\\ejiog\\.codex\\generated_images\\01a08a86-ab76-7ae0-8fe3-8dc57304c2fa\\exec-ea69d18e-afac-4eb7-a48a-e7ae1649a2f4.png",
+  "output": "C:\\Users\\ejiog\\OneDrive\\Documents\\imokong\\banner-update\\refinery-sketch.png",
+  "validation": {
+    "format": "PNG",
+    "mode": "RGB",
+    "width": 1536,
+    "height": 1024,
+    "has_genuine_alpha": false,
+    "visual_note": "Faithful fine architectural line sketch retaining refinery perspective and tall chimney; visible checkerboard is painted into the RGB image; some interiors are white. Cannot function as a genuine transparent underlay as generated."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "path": "C:\\Users\\ejiog\\OneDrive\\Documents\\imokong\\refinery-underlay-update\\refinery-sketch-generated.png",
+  "width": 1536,
+  "height": 1024,
+  "bitDepth": 8,
+  "colorType": 2,
+  "hasAlphaChannel": false,
+  "hasTransparencyChunk": false,
+  "chunks": [
+    "IHDR",
+    "caBX",
+    "IDAT",
+    "IEND"
+  ],
+  "bytes": 3370871,
+  "visualAssessment": "Refinery silhouette and architectural sketch preserved; visible checkerboard is baked into opaque RGB image. Not ready as a transparent underlay."
+}

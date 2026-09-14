@@ -1,0 +1,35 @@
+/* Homepage partner logo marquee. */
+.partner-strip{padding-block:20px}
+.partner-marquee{--partner-span:880px;--partner-duration:28s;margin-top:12px}
+.partner-marquee:focus-visible{outline:2px solid var(--primary);outline-offset:4px}
+.partner-marquee-viewport{overflow:hidden}
+.partner-marquee-track{display:flex;width:100%}
+.partner-marquee-group{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));align-items:center;flex:0 0 100%;min-width:0;list-style:none;margin:0;padding:6px 0}
+.partner-marquee-group[aria-hidden=true]{display:none}
+.partner-marquee-item{display:grid;place-items:center;min-width:0}
+.partner-logo-frame{display:flex;align-items:center;justify-content:center;width:164px;height:72px;overflow:hidden}
+/* Per-brand widths compensate for padding in the source files without distorting the marks. */
+.partner-logo-frame img{display:block;flex:none;width:calc(var(--partner-logo-width) * .82);height:auto;max-width:none;mix-blend-mode:multiply;user-select:none}
+.partner-mark-nimir,.partner-mark-nicnax{--partner-logo-width:164px}
+.partner-mark-dhl{--partner-logo-width:228px}
+.partner-mark-jazglo{--partner-logo-width:118.5px}
+@media(prefers-reduced-motion:no-preference){
+  .partner-marquee-viewport{mask-image:linear-gradient(90deg,transparent,#000 24px,#000 calc(100% - 24px),transparent)}
+  /* Each identical group equals the track width; one full-width translation makes a seamless loop. */
+  .partner-marquee-track{width:max(100%,var(--partner-span));animation:partner-marquee-scroll var(--partner-duration) linear infinite;will-change:transform}
+  .partner-marquee-group[aria-hidden=true]{display:grid}
+  .partner-marquee:focus-within .partner-marquee-track{animation-play-state:paused}
+}
+@media(hover:hover){.partner-marquee-viewport:hover .partner-marquee-track{animation-play-state:paused}}
+@keyframes partner-marquee-scroll{from{transform:translateX(0)}to{transform:translateX(-100%)}}
+@media(max-width:760px){
+  .partner-strip{padding-block:16px}
+  .partner-marquee{--partner-span:720px;--partner-duration:32s;margin-top:10px}
+  .partner-logo-frame{width:140px;height:64px}
+  .partner-logo-frame img{width:calc(var(--partner-logo-width) * .72)}
+}
+@media(max-width:760px) and (prefers-reduced-motion:reduce){
+  .partner-marquee-group{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 0}
+  .partner-logo-frame{max-width:100%}
+}
+/* End homepage partner logo marquee. */

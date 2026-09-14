@@ -1,0 +1,44 @@
+/* Orange masthead, using the existing logo silhouette and navigation. */
+.site-header{
+  --header-ink:#fffefa;
+  --header-line:rgba(255,223,200,.35);
+  color:var(--header-ink);
+  background:linear-gradient(110deg,#c74808 0%,#bb4307 55%,#ad3d06 100%);
+  border-bottom:1px solid var(--header-line);
+  box-shadow:inset 0 3px 0 rgba(255,223,200,.12);
+  backdrop-filter:none;
+}
+.site-header .logo{display:block;flex-shrink:0}
+.header-logo-mark{
+  display:block;
+  width:130px;
+  height:54px;
+  background:var(--header-ink);
+  mask-image:url('/images/logo.png');
+  mask-mode:alpha;
+  mask-size:contain;
+  mask-position:center;
+  mask-repeat:no-repeat;
+}
+.site-header .desktop-nav,.site-header .header-cta{color:var(--header-ink);font-weight:400}
+.site-header .desktop-nav>a:hover,.site-header .desktop-nav>div>a:hover{
+  color:var(--header-ink);
+  text-decoration:underline;
+  text-decoration-thickness:1px;
+  text-underline-offset:7px;
+}
+.site-header .desktop-nav .home-nav-link svg,.site-header .header-cta svg{color:inherit}
+.site-header .header-cta{position:relative;border-bottom:1px solid var(--header-line)}
+.site-header .header-cta::before{content:"";position:absolute;left:-25px;top:16px;bottom:16px;width:1px;background:var(--header-line)}
+.site-header .header-cta:hover{border-bottom-color:var(--header-ink)}
+.site-header a:focus-visible,.site-header button:focus-visible,.site-header summary:focus-visible{outline:2px solid var(--header-ink);outline-offset:5px}
+.site-header .mobile-menu summary{color:var(--header-ink);font-weight:400}
+.site-header .mobile-menu nav{color:var(--foreground);border-top:2px solid #f2b586}
+.site-header .mobile-menu nav a:focus-visible{outline-color:var(--primary)}
+.site-header .mobile-menu nav a:hover{color:var(--primary)}
+@media(max-width:1050px){.site-header .header-cta::before{left:-15px}}
+@media(max-width:760px){.header-logo-mark{width:110px;height:43px}}
+@media(forced-colors:active){
+  .site-header{background:Canvas;color:CanvasText;border-color:CanvasText;--header-ink:CanvasText;--header-line:CanvasText}
+  .header-logo-mark{background:CanvasText;forced-color-adjust:none}
+}

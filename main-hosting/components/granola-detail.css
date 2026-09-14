@@ -1,0 +1,30 @@
+.granola-page{padding-top:32px}
+.granola-hero{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(32px,5vw,76px);align-items:center}
+.granola-packshot{background:#f3f2ed;display:grid;place-items:center;padding:32px;min-height:430px}
+.granola-packshot img{width:348px;max-width:100%;height:auto;mix-blend-mode:multiply}
+.granola-lead h1{font-size:clamp(42px,4.6vw,66px)}
+.granola-lead .intro{max-width:550px}
+.granola-lead .actions{flex-wrap:wrap;gap:24px}
+.granola-section{padding:64px 0;border-bottom:1px solid var(--border);scroll-margin-top:110px}
+.granola-section-heading{display:flex;justify-content:space-between;align-items:end;gap:36px}
+.granola-section-heading>p{max-width:400px;color:#62665f}
+.granola-flavours{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;margin-top:36px}
+.granola-flavour{border-top:4px solid #515395;padding-top:22px;display:flex;flex-direction:column;align-items:start}
+.granola-flavour.fruit{border-color:#d8ab09}.granola-flavour.tropical{border-color:#de792b}
+.granola-flavour-top{display:flex;gap:20px;align-items:baseline}.granola-flavour-top span{font-size:14px;color:#62665f}
+.granola-flavour h3{font-size:26px;letter-spacing:-.6px}
+.granola-flavour>p{color:#62665f;margin:18px 0 20px}.granola-flavour .text-link{margin-top:auto}
+.granola-packaging{display:grid;grid-template-columns:2fr 1fr;gap:26px;margin-top:38px;align-items:stretch}
+.granola-page figure{margin:0;min-width:0}.granola-packaging figure{background:#fff;padding:20px;display:flex;flex-direction:column;justify-content:center;align-items:center}
+.granola-packaging img{width:100%;height:auto;object-fit:contain}.granola-packaging .granola-label img{width:194px;max-width:100%}
+.granola-page figcaption{font-size:14px;color:#62665f;margin-top:14px}
+.granola-serving{display:grid;grid-template-columns:1.3fr 1fr;gap:48px;align-items:center}
+.granola-serving img{width:100%;height:auto;aspect-ratio:1.45;object-fit:cover}
+.granola-page dl{margin:28px 0 0}.granola-page dt{font-weight:600;font-size:18px;margin-top:22px}.granola-page dd{margin:7px 0 0;color:#62665f}
+.granola-pairing{margin-top:64px;padding:36px;display:grid;grid-template-columns:280px 1fr;align-items:center;gap:48px;background:#f3f2ed}
+.granola-pairing img{width:280px;height:auto}.granola-pairing p:not(.eyebrow){max-width:640px;color:#62665f;margin:20px 0}
+.granola-supply{display:grid;grid-template-columns:1fr 1fr;gap:80px}.granola-supply>div>p:not(.eyebrow){max-width:480px;color:#62665f;margin-top:24px}
+.granola-supply dl{margin-top:0}.granola-supply dt:first-child{margin-top:0}
+.granola-order{padding:36px 0 0;display:flex;gap:40px;justify-content:space-between;align-items:center}.granola-order h2{font-size:27px}.granola-order p{max-width:700px;color:#62665f;margin-top:16px}.granola-order .button{flex-shrink:0}
+@media(max-width:1000px){.granola-flavours{gap:20px}.granola-flavour h3{font-size:22px}.granola-serving,.granola-supply{gap:32px}.granola-order{align-items:start;flex-direction:column}}
+@media(max-width:760px){.granola-hero,.granola-flavours,.granola-packaging,.granola-serving,.granola-pairing,.granola-supply{grid-template-columns:1fr}.granola-packshot{min-height:0;padding:24px}.granola-packshot img{width:280px}.granola-section{padding:42px 0}.granola-section-heading{display:block}.granola-section-heading>p{margin-top:20px}.granola-flavours{gap:28px}.granola-flavour h3{font-size:26px}.granola-pairing{margin-top:42px;padding:24px;gap:26px}.granola-pairing img{width:240px;justify-self:center}.granola-lead h1{font-size:44px}.granola-order .button{white-space:normal}.granola-page .button{max-width:100%}}

@@ -1,0 +1,17 @@
+Source: C:\Users\ejiog\OneDrive\Documents\imokong\nicnax-warm-palette-update\assets\nicnax-warm-products-v1.png
+Verified dimensions: 1721 x 914 pixels
+Verified raster format: RGB (System.Drawing Format24bppRgb)
+Mask: nicnax-warm-products-mask.svg
+SVG dimensions and viewBox: width=1721 height=914 viewBox="0 0 1721 914"
+Method: new native SVG alpha-mask tracing against this warm image. The earlier 1180 x 626 mask was not reused. No image generation, raster editing, or site source editing.
+Mask design: six white path elements on transparent SVG background; no black or opaque background rectangle. Five paths preserve packaging silhouettes and all interior white areas; the sixth contains the three visible foreground peanut/nut shapes. Slightly inset outer contours limit baked checkerboard halos.
+Approximate coordinates:
+- warm-almond-cranberry-carton: x=47..547, y=8..844
+- warm-fruity-delight-carton: x=577..1062, y=11..841
+- warm-shipping-carton: x=1077..1714, y=10..520
+- warm-smooth-butter-jar: x=1102..1335, y=504..876
+- warm-peanut-butter-jar: x=1363..1616, y=531..906
+- warm-foreground-peanuts: x=1175..1389, y=832..910
+Contour notes: carton folds and slanted walls follow source geometry. The shipping carton path includes its front flap, stepped bottom tabs, and narrow concave gap between the back wall and raised right flap. Jar lids, shoulders, sides, and curved bases use cubic contours. Foreground peanut paths overlap jar masks where the photo shows contact, without cutting holes into labels or white packaging.
+Apply as CSS mask-image with mask-mode: alpha; mask-size: 100% 100%; mask-repeat: no-repeat; matching -webkit-mask properties. Render the mask and unchanged full raster at identical sizes and positions.
+Validation: source dimensions verified, SVG XML parsed, root viewBox checked, six paths and zero rectangles checked. Parent task will integrate and browser-inspect the silhouettes.

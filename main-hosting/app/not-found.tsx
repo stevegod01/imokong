@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <main className="wrap inner-page" id="main"><p className="eyebrow">PAGE NOT FOUND</p><h1>Let’s get you<br/><em>back on track.</em></h1><p className="intro">This page isn’t part of the current product range.</p><div className="actions"><Link className="button" href="/products">Explore products →</Link><Link className="text-link" href="/">Back to home</Link></div></main>}
