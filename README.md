@@ -10,7 +10,7 @@ Use **[`main-hosting/`](./main-hosting/)** for the current production website so
 
 Use **[`vercel-preview/`](./vercel-preview/)** for the separate Next.js server/Vercel preview application. It shares much of the website source, but it is a separate copy and does not contain every later change in `main-hosting/`.
 
-There is no root-level application or package manifest. Run application commands inside the chosen app directory.
+There is no root-level application. The root package contains shared browser checks; run application commands inside the chosen app directory. Start with the [project case study](docs/CASE-STUDY.md) and [development-history index](docs/DEVELOPMENT-HISTORY.md).
 
 ## Features
 
@@ -117,7 +117,7 @@ Make current production changes in `main-hosting/`:
 
 If a change should also appear on Vercel, synchronize the relevant source and assets to `vercel-preview/` and check that application separately. Preserve each application's hosting configuration; static-export routes and query-parameter handling differ between the two copies.
 
-Before publishing a change, run TypeScript checking and a production build, then review the affected pages in a browser at desktop and mobile widths. When changing products or enquiry components, also check catalogue filtering, product/variant links, and draft copying or downloading. There is currently no automated test command in either application's package scripts.
+Before publishing a change, run TypeScript checking and a production build, then review the affected pages in a browser at desktop and mobile widths. When changing products or enquiry components, also check catalogue filtering, product/variant links, and draft copying or downloading. Shared Playwright checks cover catalogue filtering, product-to-enquiry navigation, draft downloads, stale-draft invalidation and mobile overflow. See [validation instructions](docs/VALIDATION.md).
 
 Read the application-level `AGENTS.md` before making automated code changes; it points to the documentation bundled with the installed Next.js version.
 

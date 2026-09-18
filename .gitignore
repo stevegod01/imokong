@@ -32,3 +32,7 @@ deployment-url.txt
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Browser validation output
+playwright-report/
+test-results/

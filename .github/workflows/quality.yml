@@ -1,0 +1,41 @@
+name: Website quality
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  website:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        app: [main-hosting, vercel-preview]
+    env:
+      NEXT_TELEMETRY_DISABLED: '1'
+      IMOKO_APP: ${{ matrix.app }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            ${{ matrix.app }}/package-lock.json
+      - run: npm ci
+      - run: npm ci --prefix ${{ matrix.app }}
+      - run: npm run typecheck --prefix ${{ matrix.app }}
+      - run: npm run build --prefix ${{ matrix.app }}
+      - run: npx playwright install --with-deps chromium
+      - run: npm test
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: browser-report-${{ matrix.app }}
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 7
